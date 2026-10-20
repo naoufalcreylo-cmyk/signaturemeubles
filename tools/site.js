@@ -4,7 +4,7 @@
 const IMG = name => `shopify://shop_images/${name}`;
 
 // ---- Header (mega-menu imagery = real ambiance photos of products in each room) -----------------
-const megaCard = (menu_title, cards) => ({ type: 'custom_card', settings: { menu_title, menu_columns: 1, promotions_width: cards.length > 1 ? 64 : 36, promotion_columns: cards.length,
+const megaCard = (menu_title, cards) => ({ type: 'custom_card', settings: { menu_title, menu_columns: 2, promotions_width: cards.length > 1 ? 64 : 36, promotion_columns: cards.length,
   ...Object.fromEntries(cards.flatMap((c, i) => [[`promo_image_${i + 1}`, IMG(c.image)], [`heading_${i + 1}`, c.heading], [`heading_size_${i + 1}`, 'h5'], [`description_${i + 1}`, c.text ? `<p>${c.text}</p>` : ''], [`promotion_link_${i + 1}`, c.link]])) } });
 
 const headerGroup = {
