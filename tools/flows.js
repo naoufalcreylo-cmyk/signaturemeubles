@@ -1,7 +1,7 @@
 // node tools/flows.js [port=4200] — real shopping interactions against the local preview (Chromium, desktop + mobile)
 // Variant change → price/URL, add to cart → drawer + count, qty update, remove, cart page, filters, sort, search, mobile menu, keyboard.
 const { chromium } = require('playwright-core');
-const BASE = `http://localhost:${process.argv[2] || 4200}`;
+const BASE = process.env.BASE || `http://localhost:${process.argv[2] || 4200}`;
 const results = []; const ok = (name, cond, info = '') => { results.push({ name, pass: !!cond, info }); console.log(`${cond ? 'PASS' : 'FAIL'}  ${name}${info ? '  — ' + info : ''}`); };
 (async () => {
   const b = await chromium.launch({ channel: 'chrome' });
