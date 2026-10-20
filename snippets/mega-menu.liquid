@@ -1,5 +1,9 @@
 {%- liquid
   assign menu_columns = block.settings.menu_columns
+  # Signature Meubles: a flat sub-menu (no third level) stays in one column; the setting's minimum is 2
+  if link.levels == 1
+    assign menu_columns = 1
+  endif
   assign promotions_width = block.settings.promotions_width
   assign promotion_columns = block.settings.promotion_columns
   case block.type
