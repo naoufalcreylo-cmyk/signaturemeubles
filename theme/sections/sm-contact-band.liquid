@@ -1,0 +1,85 @@
+{%- comment -%}
+  Signature Meubles — contact invitation + brand signature (placed above the footer).
+  Shows only channels that are configured: contact page (always), WhatsApp (theme setting), Instagram (social setting).
+  Showroom addresses can be added as blocks once verified; nothing is shown without them.
+{%- endcomment -%}
+{{ 'section-sm-editorial.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign s = section.settings
+  capture wa
+    render 'sm-whatsapp-url', message: s.whatsapp_message
+  endcapture
+  assign wa = wa | strip
+-%}
+<div class="sm-contact color-{{ s.color_scheme }} section--padding" style="--section-padding-top: {{ s.padding_top }}px; --section-padding-bottom: {{ s.padding_bottom }}px;">
+  <div class="page-width">
+    <div class="sm-contact__grid" role="region" aria-label="{{ s.heading | default: shop.name | escape }}">
+      <div class="sm-contact__brand">
+        <a href="{{ routes.root_url }}" class="sm-contact__logo">{%- render 'sm-logo', variant: 'full', tone: s.logo_tone -%}</a>
+      </div>
+      <div class="sm-contact__content">
+        {%- if s.heading != blank -%}<h2 class="sm-contact__title h3">{{ s.heading }}</h2>{%- endif -%}
+        {%- if s.text != blank -%}<div class="sm-contact__text rte">{{ s.text }}</div>{%- endif -%}
+        <div class="sm-contact__actions">
+          {%- if wa != blank -%}
+            <a class="btn btn--primary sm-btn-icon" href="{{ wa }}" target="_blank" rel="noopener" aria-describedby="a11y-new-window-message">{%- render 'sm-icon', icon: 'whatsapp' -%}<span class="btn__text">WhatsApp</span></a>
+          {%- endif -%}
+          {%- if s.contact_label != blank -%}
+            <a class="btn {% if wa != blank %}btn--secondary{% else %}btn--primary{% endif %} sm-btn-icon" href="{{ s.contact_url | default: '/pages/contact' }}">{%- render 'sm-icon', icon: 'mail' -%}<span class="btn__text">{{ s.contact_label }}</span></a>
+          {%- endif -%}
+          {%- if settings.social_instagram_link != blank -%}
+            <a class="sm-link sm-contact__social" href="{{ settings.social_instagram_link }}" target="_blank" rel="noopener" aria-describedby="a11y-new-window-message">{%- render 'sm-icon', icon: 'instagram' -%}Instagram</a>
+          {%- endif -%}
+        </div>
+      </div>
+      {%- if section.blocks.size > 0 -%}
+        <ul class="sm-contact__stores" role="list">
+          {%- for block in section.blocks -%}
+            <li class="sm-store" {{ block.shopify_attributes }}>
+              <h3 class="sm-store__name">{{ block.settings.name }}</h3>
+              {%- if block.settings.address != blank -%}<p class="sm-store__line">{{ block.settings.address }}</p>{%- endif -%}
+              {%- if block.settings.hours != blank -%}<p class="sm-store__line">{{ block.settings.hours }}</p>{%- endif -%}
+              {%- if block.settings.phone != blank -%}<p class="sm-store__line"><a href="tel:{{ block.settings.phone | remove: ' ' }}">{{ block.settings.phone }}</a></p>{%- endif -%}
+              {%- if block.settings.map_url != blank -%}<a class="sm-link" href="{{ block.settings.map_url }}" target="_blank" rel="noopener">{{ 'sm.contact.directions' | t }}</a>{%- endif -%}
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "SM · Contact",
+  "tag": "section",
+  "class": "sm-section",
+  "max_blocks": 6,
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Couleurs", "default": "scheme-4" },
+    { "type": "select", "id": "logo_tone", "label": "Logo", "options": [ { "value": "light", "label": "Blanc (fond foncé)" }, { "value": "dark", "label": "Vert (fond clair)" } ], "default": "light" },
+    { "type": "text", "id": "heading", "label": "Titre", "default": "Une question sur un modèle ?" },
+    { "type": "richtext", "id": "text", "label": "Texte" },
+    { "type": "text", "id": "contact_label", "label": "Bouton contact", "default": "Nous écrire" },
+    { "type": "url", "id": "contact_url", "label": "Page contact" },
+    { "type": "text", "id": "whatsapp_message", "label": "Message WhatsApp prérempli", "default": "Bonjour Signature Meubles, j’ai une question." },
+    { "type": "range", "id": "padding_top", "label": "Marge haute", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 72 },
+    { "type": "range", "id": "padding_bottom", "label": "Marge basse", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 56 }
+  ],
+  "blocks": [
+    {
+      "type": "store",
+      "name": "Magasin",
+      "settings": [
+        { "type": "paragraph", "content": "Ajoutez un magasin uniquement lorsque l’adresse et les horaires sont confirmés." },
+        { "type": "text", "id": "name", "label": "Nom", "default": "Magasin" },
+        { "type": "text", "id": "address", "label": "Adresse" },
+        { "type": "text", "id": "hours", "label": "Horaires" },
+        { "type": "text", "id": "phone", "label": "Téléphone" },
+        { "type": "url", "id": "map_url", "label": "Lien Google Maps" }
+      ]
+    }
+  ],
+  "presets": [ { "name": "SM · Contact" } ]
+}
+{% endschema %}

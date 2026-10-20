@@ -1,0 +1,26 @@
+{%- comment -%}
+  Signature Meubles — dimensions caption read from the variant option named « Dimensions » (no invented data).
+  Usage: {% render 'sm-dimensions', product: product, context: 'card' %}
+  One value  → « 330 × 190 cm »   ·   several → « 5 dimensions disponibles »
+  Display only: « x » is typeset as « × »; the stored option values are untouched.
+{%- endcomment -%}
+{%- liquid
+  assign dim_option = null
+  for option in product.options_with_values
+    assign option_name = option.name | downcase
+    if option_name contains 'dimension'
+      assign dim_option = option
+      break
+    endif
+  endfor
+-%}
+{%- if dim_option -%}
+  <p class="sm-dims sm-dims--{{ context | default: 'card' }}">
+    {%- if dim_option.values.size == 1 -%}
+      <span class="visually-hidden">{{ 'sm.dimensions.label' | t }} : </span>
+      {{- dim_option.values.first | replace: ' x ', ' × ' | replace: ' X ', ' × ' | replace: 'x ', ' × ' -}}
+    {%- else -%}
+      {{- 'sm.dimensions.count' | t: count: dim_option.values.size -}}
+    {%- endif -%}
+  </p>
+{%- endif -%}

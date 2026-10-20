@@ -1,0 +1,47 @@
+{%- comment -%}
+  Signature Meubles — product specifications. Only real data:
+  · variant options (e.g. Dimensions, Rangement) · product type
+  · product metafields signature.matiere / finition / entretien / livraison (shown only when filled)
+  · block delivery text (merchant-confirmed, common to all products)
+{%- endcomment -%}
+{%- liquid
+  assign bs = block.settings
+  assign m = product.metafields.signature
+-%}
+<div class="sm-specs">
+  {%- if bs.heading != blank -%}<h2 class="sm-specs__title">{{ bs.heading }}</h2>{%- endif -%}
+  <dl class="sm-specs__list">
+    {%- if bs.show_type and product.type != blank -%}
+      <div class="sm-specs__row"><dt>{{ 'sm.specs.category' | t }}</dt><dd>{{ product.type }}</dd></div>
+    {%- endif -%}
+    {%- if bs.show_options -%}
+      {%- unless product.has_only_default_variant -%}
+        {%- for option in product.options_with_values -%}
+          {%- assign oname = option.name | downcase -%}
+          <div class="sm-specs__row">
+            <dt>{% if oname contains 'dimension' and option.values.size > 1 %}{{ 'sm.specs.available_sizes' | t }}{% else %}{{ option.name }}{% endif %}</dt>
+            <dd>
+              {%- for value in option.values -%}
+                {%- if oname contains 'dimension' -%}
+                  {{- value | replace: ' x ', ' × ' | replace: ' X ', ' × ' | replace: 'x ', ' × ' -}}
+                {%- else -%}
+                  {{- value -}}
+                {%- endif -%}
+                {%- unless forloop.last -%}<span class="sm-specs__sep" aria-hidden="true"> · </span><span class="visually-hidden">, </span>{%- endunless -%}
+              {%- endfor -%}
+            </dd>
+          </div>
+        {%- endfor -%}
+      {%- endunless -%}
+    {%- endif -%}
+    {%- if m.matiere != blank -%}<div class="sm-specs__row"><dt>{{ 'sm.specs.material' | t }}</dt><dd>{{ m.matiere.value | default: m.matiere }}</dd></div>{%- endif -%}
+    {%- if m.finition != blank -%}<div class="sm-specs__row"><dt>{{ 'sm.specs.finish' | t }}</dt><dd>{{ m.finition.value | default: m.finition }}</dd></div>{%- endif -%}
+    {%- if m.entretien != blank -%}<div class="sm-specs__row"><dt>{{ 'sm.specs.care' | t }}</dt><dd>{{ m.entretien.value | default: m.entretien }}</dd></div>{%- endif -%}
+    {%- if m.livraison != blank -%}
+      <div class="sm-specs__row"><dt>{{ 'sm.specs.delivery' | t }}</dt><dd>{{ m.livraison.value | default: m.livraison }}</dd></div>
+    {%- elsif bs.delivery_text != blank -%}
+      <div class="sm-specs__row"><dt>{{ 'sm.specs.delivery' | t }}</dt><dd class="rte">{{ bs.delivery_text }}</dd></div>
+    {%- endif -%}
+  </dl>
+  {%- if bs.show_ttc_note -%}<p class="sm-specs__note">{{ 'sm.specs.price_ttc' | t }}</p>{%- endif -%}
+</div>

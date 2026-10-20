@@ -1,0 +1,91 @@
+{%- comment -%}
+  Signature Meubles — « Composer la pièce ». An interior photo + numbered steps, each step a collection of
+  complementary products for the same room (e.g. 1. la table, 2. les chaises). Only real catalogue products;
+  steps whose collection is empty are hidden, and the section hides itself with fewer than two steps.
+{%- endcomment -%}
+{{ 'section-sm-editorial.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign s = section.settings
+  assign live_steps = 0
+  for block in section.blocks
+    if block.settings.collection != blank and block.settings.collection.products_count > 0
+      assign live_steps = live_steps | plus: 1
+    endif
+  endfor
+-%}
+{%- if live_steps >= 2 or request.design_mode -%}
+<div class="sm-builder color-{{ s.color_scheme }} section--padding sm-builder--image-{{ s.image_position }}" style="--section-padding-top: {{ s.padding_top }}px; --section-padding-bottom: {{ s.padding_bottom }}px;">
+  <div class="page-width sm-builder__inner">
+    <div class="sm-builder__media">
+      {%- if s.image != blank -%}
+        {{ s.image | image_url: width: 1254 | image_tag: loading: 'lazy', sizes: '(min-width: 1024px) 46vw, 100vw', widths: '500, 750, 1000, 1254', alt: s.image_alt, class: 'sm-builder__img' }}
+      {%- else -%}
+        {{ 'lifestyle-2' | placeholder_svg_tag: 'sm-builder__img placeholder-svg' }}
+      {%- endif -%}
+    </div>
+    <div class="sm-builder__content">
+      {%- if s.eyebrow != blank -%}<p class="sm-eyebrow">{{ s.eyebrow }}</p>{%- endif -%}
+      {%- if s.heading != blank -%}<h2 class="sm-builder__title h2">{{ s.heading }}</h2>{%- endif -%}
+      {%- if s.text != blank -%}<div class="sm-builder__text rte">{{ s.text }}</div>{%- endif -%}
+
+      {%- assign n = 0 -%}
+      {%- for block in section.blocks -%}
+        {%- assign c = block.settings.collection -%}
+        {%- if c == blank or c.products_count == 0 -%}{%- continue -%}{%- endif -%}
+        {%- assign n = n | plus: 1 -%}
+        <div class="sm-step" {{ block.shopify_attributes }}>
+          <div class="sm-step__head">
+            <span class="sm-step__num" aria-hidden="true">{{ n }}</span>
+            <h3 class="sm-step__title">{{ block.settings.title | default: c.title }}</h3>
+            <a class="sm-link sm-step__all" href="{{ c.url }}">{{ 'sm.collection.count' | t: count: c.products_count }}</a>
+          </div>
+          <div class="sm-step__rail" role="region" aria-label="{{ block.settings.title | default: c.title | escape }}" tabindex="0">
+            <ul class="sm-step__list" role="list">
+              {%- for product in c.products limit: block.settings.limit -%}
+                <li class="sm-step__item">{%- render 'sm-mini-card', product: product, sizes: '180px' -%}</li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+      {%- endfor -%}
+      {%- if s.button_label != blank and s.button_link != blank -%}
+        <a href="{{ s.button_link }}" class="btn btn--primary sm-builder__btn"><span class="btn__text">{{ s.button_label }}</span></a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "SM · Composer la pièce",
+  "tag": "section",
+  "class": "sm-section",
+  "max_blocks": 3,
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Couleurs", "default": "scheme-1" },
+    { "type": "image_picker", "id": "image", "label": "Photo d’ambiance" },
+    { "type": "text", "id": "image_alt", "label": "Texte alternatif" },
+    { "type": "select", "id": "image_position", "label": "Position de la photo", "options": [ { "value": "left", "label": "Gauche" }, { "value": "right", "label": "Droite" } ], "default": "left" },
+    { "type": "text", "id": "eyebrow", "label": "Surtitre", "default": "Salle à manger" },
+    { "type": "text", "id": "heading", "label": "Titre", "default": "Composez votre table" },
+    { "type": "richtext", "id": "text", "label": "Texte" },
+    { "type": "text", "id": "button_label", "label": "Bouton" },
+    { "type": "url", "id": "button_link", "label": "Lien du bouton" },
+    { "type": "range", "id": "padding_top", "label": "Marge haute", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 96 },
+    { "type": "range", "id": "padding_bottom", "label": "Marge basse", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 96 }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Étape",
+      "settings": [
+        { "type": "collection", "id": "collection", "label": "Collection" },
+        { "type": "text", "id": "title", "label": "Titre de l’étape" },
+        { "type": "range", "id": "limit", "label": "Produits affichés", "min": 2, "max": 12, "step": 1, "default": 6 }
+      ]
+    }
+  ],
+  "presets": [ { "name": "SM · Composer la pièce", "blocks": [ { "type": "step" }, { "type": "step" } ] } ]
+}
+{% endschema %}

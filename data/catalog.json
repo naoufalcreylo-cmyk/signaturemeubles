@@ -1,0 +1,7540 @@
+{
+ "source": "products_export_1 (7).csv",
+ "products": [
+  {
+   "id": 8800000000002,
+   "handle": "freeman-u",
+   "title": "FREEMAN",
+   "body_html": "<p>Salon en U FREEMAN.</p><p>Dimensions : 310 x 450 x 310 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "310 x 450 x 310 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000001,
+     "sku": "FREEMAN_U",
+     "price": 2199000,
+     "compare_at_price": null,
+     "option1": "310 x 450 x 310 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "310 x 450 x 310 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_U_01_AMBIANCE.webp?v=1792506589",
+     "position": 1,
+     "alt": "Salon en U FREEMAN - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_U_01.webp?v=1792506598",
+     "position": 2,
+     "alt": "Salon en U FREEMAN - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_U_02.webp?v=1792506609",
+     "position": 3,
+     "alt": "Salon en U FREEMAN - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_U_03.webp?v=1792506584",
+     "position": 4,
+     "alt": "Salon en U FREEMAN - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_U_04.webp?v=1792506593",
+     "position": 5,
+     "alt": "Salon en U FREEMAN - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "310 x 450 x 310 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2199000,
+   "price_max": 2199000,
+   "available": true
+  },
+  {
+   "id": 8800000000004,
+   "handle": "milano-u",
+   "title": "MILANO",
+   "body_html": "<p>Salon en U MILANO.</p><p>Dimensions : 300 x 430 x 300 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "300 x 430 x 300 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000003,
+     "sku": "MILANO_U",
+     "price": 1699000,
+     "compare_at_price": null,
+     "option1": "300 x 430 x 300 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "300 x 430 x 300 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_U_01_AMBIANCE.webp?v=1792506564",
+     "position": 1,
+     "alt": "Salon en U MILANO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_U_01.webp?v=1792506575",
+     "position": 2,
+     "alt": "Salon en U MILANO - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_U_02.webp?v=1792506586",
+     "position": 3,
+     "alt": "Salon en U MILANO - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_U_03.webp?v=1792506567",
+     "position": 4,
+     "alt": "Salon en U MILANO - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_U_04.webp?v=1792506579",
+     "position": 5,
+     "alt": "Salon en U MILANO - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "300 x 430 x 300 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1699000,
+   "price_max": 1699000,
+   "available": true
+  },
+  {
+   "id": 8800000000006,
+   "handle": "scott-pm-l",
+   "title": "SCOTT PM",
+   "body_html": "<p>Salon en L SCOTT PM.</p><p>Dimensions : 315 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "315 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000005,
+     "sku": "SCOTT_PM_L",
+     "price": 899000,
+     "compare_at_price": null,
+     "option1": "315 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "315 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SCOTT_PM_L_01_AMBIANCE.webp?v=1792506537",
+     "position": 1,
+     "alt": "Salon en L SCOTT PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SCOTT_PM_L_01.webp?v=1792506548",
+     "position": 2,
+     "alt": "Salon en L SCOTT PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SCOTT_PM_L_02.webp?v=1792506558",
+     "position": 3,
+     "alt": "Salon en L SCOTT PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SCOTT_PM_L_03.webp?v=1792506567",
+     "position": 4,
+     "alt": "Salon en L SCOTT PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SCOTT_PM_L_04.webp?v=1792506553",
+     "position": 5,
+     "alt": "Salon en L SCOTT PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "315 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 899000,
+   "price_max": 899000,
+   "available": true
+  },
+  {
+   "id": 8800000000008,
+   "handle": "milano-l",
+   "title": "MILANO",
+   "body_html": "<p>Salon en L MILANO.</p><p>Dimensions : 300 x 300 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "300 x 300 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000007,
+     "sku": "MILANO_L",
+     "price": 1299000,
+     "compare_at_price": null,
+     "option1": "300 x 300 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "300 x 300 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_L_01_AMBIANCE.webp?v=1792506518",
+     "position": 1,
+     "alt": "Salon en L MILANO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_L_01.webp?v=1792506527",
+     "position": 2,
+     "alt": "Salon en L MILANO - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_L_02.webp?v=1792506539",
+     "position": 3,
+     "alt": "Salon en L MILANO - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_L_03.webp?v=1792506548",
+     "position": 4,
+     "alt": "Salon en L MILANO - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILANO_L_04.webp?v=1792506562",
+     "position": 5,
+     "alt": "Salon en L MILANO - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "300 x 300 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1299000,
+   "price_max": 1299000,
+   "available": true
+  },
+  {
+   "id": 8800000000010,
+   "handle": "olika-pm-l",
+   "title": "OLIKA PM",
+   "body_html": "<p>Salon en L OLIKA PM.</p><p>Dimensions : 300 x 220 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "300 x 220 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000009,
+     "sku": "OLIKA_PM_L",
+     "price": 999000,
+     "compare_at_price": null,
+     "option1": "300 x 220 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "300 x 220 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_L_01_AMBIANCE.webp?v=1792506499",
+     "position": 1,
+     "alt": "Salon en L OLIKA PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_L_01.webp?v=1792506509",
+     "position": 2,
+     "alt": "Salon en L OLIKA PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_L_02.webp?v=1792506522",
+     "position": 3,
+     "alt": "Salon en L OLIKA PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_L_03.webp?v=1792506532",
+     "position": 4,
+     "alt": "Salon en L OLIKA PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_L_04.webp?v=1792506543",
+     "position": 5,
+     "alt": "Salon en L OLIKA PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "300 x 220 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 999000,
+   "price_max": 999000,
+   "available": true
+  },
+  {
+   "id": 8800000000012,
+   "handle": "adamo-l",
+   "title": "ADAMO",
+   "body_html": "<p>Salon en L ADAMO.</p><p>Dimensions : 297 x 210 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "297 x 210 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000011,
+     "sku": "ADAMO_L",
+     "price": 1099000,
+     "compare_at_price": null,
+     "option1": "297 x 210 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "297 x 210 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ADAMO_L_01_AMBIANCE.webp?v=1792506497",
+     "position": 1,
+     "alt": "Salon en L ADAMO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ADAMO_L_01.webp?v=1792506507",
+     "position": 2,
+     "alt": "Salon en L ADAMO - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ADAMO_L_02.webp?v=1792506516",
+     "position": 3,
+     "alt": "Salon en L ADAMO - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ADAMO_L_03.webp?v=1792506489",
+     "position": 4,
+     "alt": "Salon en L ADAMO - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ADAMO_L_04.webp?v=1792506498",
+     "position": 5,
+     "alt": "Salon en L ADAMO - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "297 x 210 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1099000,
+   "price_max": 1099000,
+   "available": true
+  },
+  {
+   "id": 8800000000014,
+   "handle": "freedom-l",
+   "title": "FREEDOM",
+   "body_html": "<p>Salon en L FREEDOM.</p><p>Dimensions : 400 x 260 x 160 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "400 x 260 x 160 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000013,
+     "sku": "FREEDOM_L",
+     "price": 1899000,
+     "compare_at_price": null,
+     "option1": "400 x 260 x 160 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "400 x 260 x 160 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEDOM_L_01_AMBIANCE.webp?v=1792506470",
+     "position": 1,
+     "alt": "Salon en L FREEDOM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEDOM_L_01.webp?v=1792506480",
+     "position": 2,
+     "alt": "Salon en L FREEDOM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEDOM_L_02.webp?v=1792506470",
+     "position": 3,
+     "alt": "Salon en L FREEDOM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEDOM_L_03.webp?v=1792506480",
+     "position": 4,
+     "alt": "Salon en L FREEDOM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEDOM_L_04.webp?v=1792506489",
+     "position": 5,
+     "alt": "Salon en L FREEDOM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "400 x 260 x 160 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1899000,
+   "price_max": 1899000,
+   "available": true
+  },
+  {
+   "id": 8800000000016,
+   "handle": "cloud-u",
+   "title": "CLOUD",
+   "body_html": "<p>Salon en U CLOUD.</p><p>Dimensions : 225 x 460 x 225 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "225 x 460 x 225 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000015,
+     "sku": "CLOUD_U",
+     "price": 1999000,
+     "compare_at_price": null,
+     "option1": "225 x 460 x 225 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "225 x 460 x 225 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_U_01_AMBIANCE.webp?v=1792506439",
+     "position": 1,
+     "alt": "Salon en U CLOUD - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_U_01.webp?v=1792506450",
+     "position": 2,
+     "alt": "Salon en U CLOUD - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_U_02.webp?v=1792506460",
+     "position": 3,
+     "alt": "Salon en U CLOUD - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_U_03.webp?v=1792506452",
+     "position": 4,
+     "alt": "Salon en U CLOUD - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_U_04.webp?v=1792506461",
+     "position": 5,
+     "alt": "Salon en U CLOUD - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "225 x 460 x 225 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1999000,
+   "price_max": 1999000,
+   "available": true
+  },
+  {
+   "id": 8800000000018,
+   "handle": "olika-gm-l",
+   "title": "OLIKA GM",
+   "body_html": "<p>Salon en L OLIKA GM.</p><p>Dimensions : 400 X P 220 X H 65 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "400 X P 220 X H 65 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000017,
+     "sku": "OLIKA_GM_L",
+     "price": 1598000,
+     "compare_at_price": null,
+     "option1": "400 X P 220 X H 65 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "400 X P 220 X H 65 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_GM_L_01_AMBIANCE.webp?v=1792506431",
+     "position": 1,
+     "alt": "Salon en L OLIKA GM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_GM_L_01.webp?v=1792506442",
+     "position": 2,
+     "alt": "Salon en L OLIKA GM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_GM_L_02.webp?v=1792506451",
+     "position": 3,
+     "alt": "Salon en L OLIKA GM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_GM_L_03.webp?v=1792506461",
+     "position": 4,
+     "alt": "Salon en L OLIKA GM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_GM_L_04.webp?v=1792506470",
+     "position": 5,
+     "alt": "Salon en L OLIKA GM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "400 X P 220 X H 65 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1598000,
+   "price_max": 1598000,
+   "available": true
+  },
+  {
+   "id": 8800000000020,
+   "handle": "freeman-l",
+   "title": "FREEMAN",
+   "body_html": "<p>Salon en L FREEMAN.</p><p>Dimensions : 310 x 330 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "310 x 330 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000019,
+     "sku": "FREEMAN_L",
+     "price": 1499500,
+     "compare_at_price": null,
+     "option1": "310 x 330 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "310 x 330 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_L_01_AMBIANCE.webp?v=1792506419",
+     "position": 1,
+     "alt": "Salon en L FREEMAN - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_L_01.webp?v=1792506429",
+     "position": 2,
+     "alt": "Salon en L FREEMAN - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_L_02.webp?v=1792506409",
+     "position": 3,
+     "alt": "Salon en L FREEMAN - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_L_03.webp?v=1792506420",
+     "position": 4,
+     "alt": "Salon en L FREEMAN - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/FREEMAN_L_04.webp?v=1792506421",
+     "position": 5,
+     "alt": "Salon en L FREEMAN - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "310 x 330 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1499500,
+   "price_max": 1499500,
+   "available": true
+  },
+  {
+   "id": 8800000000022,
+   "handle": "sky-gm-l",
+   "title": "SKY GM",
+   "body_html": "<p>Salon en L SKY GM.</p><p>Dimensions : 420 x 260 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "420 x 260 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000021,
+     "sku": "SKY_GM_L",
+     "price": 2289000,
+     "compare_at_price": null,
+     "option1": "420 x 260 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "420 x 260 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_L_01_AMBIANCE.webp?v=1792506379",
+     "position": 1,
+     "alt": "Salon en L SKY GM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_L_01.webp?v=1792506389",
+     "position": 2,
+     "alt": "Salon en L SKY GM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_L_02.webp?v=1792506390",
+     "position": 3,
+     "alt": "Salon en L SKY GM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_L_03.webp?v=1792506399",
+     "position": 4,
+     "alt": "Salon en L SKY GM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_L_04.webp?v=1792506409",
+     "position": 5,
+     "alt": "Salon en L SKY GM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "420 x 260 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2289000,
+   "price_max": 2289000,
+   "available": true
+  },
+  {
+   "id": 8800000000024,
+   "handle": "cloud-pm-l",
+   "title": "CLOUD PM",
+   "body_html": "<p>Salon en L CLOUD PM.</p><p>Dimensions : 360 x 220 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "360 x 220 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000023,
+     "sku": "CLOUD_PM_L",
+     "price": 1399000,
+     "compare_at_price": null,
+     "option1": "360 x 220 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "360 x 220 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_PM_L_01_AMBIANCE.webp?v=1792506379",
+     "position": 1,
+     "alt": "Salon en L CLOUD PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_PM_L_01.webp?v=1792506388",
+     "position": 2,
+     "alt": "Salon en L CLOUD PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_PM_L_02.webp?v=1792506400",
+     "position": 3,
+     "alt": "Salon en L CLOUD PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_PM_L_03.webp?v=1792506411",
+     "position": 4,
+     "alt": "Salon en L CLOUD PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_PM_L_04.webp?v=1792506370",
+     "position": 5,
+     "alt": "Salon en L CLOUD PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "360 x 220 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1399000,
+   "price_max": 1399000,
+   "available": true
+  },
+  {
+   "id": 8800000000026,
+   "handle": "sky-pm-l",
+   "title": "SKY PM",
+   "body_html": "<p>Salon en L SKY PM.</p><p>Dimensions : 350 x 190 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "350 x 190 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000025,
+     "sku": "SKY_PM_L",
+     "price": 1299000,
+     "compare_at_price": null,
+     "option1": "350 x 190 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "350 x 190 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_PM_L_01_AMBIANCE.webp?v=1792506337",
+     "position": 1,
+     "alt": "Salon en L SKY PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_PM_L_01.webp?v=1792506347",
+     "position": 2,
+     "alt": "Salon en L SKY PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_PM_L_02.webp?v=1792506356",
+     "position": 3,
+     "alt": "Salon en L SKY PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_PM_L_03.webp?v=1792506351",
+     "position": 4,
+     "alt": "Salon en L SKY PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_PM_L_04.webp?v=1792506360",
+     "position": 5,
+     "alt": "Salon en L SKY PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "350 x 190 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1299000,
+   "price_max": 1299000,
+   "available": true
+  },
+  {
+   "id": 8800000000028,
+   "handle": "sky-x-l",
+   "title": "SKY-X",
+   "body_html": "<p>Salon en L SKY-X.</p><p>Dimensions : 420 x 390 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "420 x 390 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000027,
+     "sku": "SKY-X_L",
+     "price": 1699000,
+     "compare_at_price": null,
+     "option1": "420 x 390 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "420 x 390 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY-X_L_01_AMBIANCE.webp?v=1792506330",
+     "position": 1,
+     "alt": "Salon en L SKY-X - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY-X_L_01.webp?v=1792506340",
+     "position": 2,
+     "alt": "Salon en L SKY-X - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY-X_L_02.webp?v=1792506349",
+     "position": 3,
+     "alt": "Salon en L SKY-X - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY-X_L_03.webp?v=1792506358",
+     "position": 4,
+     "alt": "Salon en L SKY-X - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY-X_L_04.webp?v=1792506369",
+     "position": 5,
+     "alt": "Salon en L SKY-X - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "420 x 390 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1699000,
+   "price_max": 1699000,
+   "available": true
+  },
+  {
+   "id": 8800000000030,
+   "handle": "sky-scraper-u",
+   "title": "SKY SCRAPER",
+   "body_html": "<p>Salon en U SKY SCRAPER.</p><p>Dimensions : 265 x 550 x 190 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "265 x 550 x 190 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000029,
+     "sku": "SKY_SCRAPER_U",
+     "price": 2299000,
+     "compare_at_price": null,
+     "option1": "265 x 550 x 190 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "265 x 550 x 190 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_SCRAPER_U_01_AMBIANCE.webp?v=1792506318",
+     "position": 1,
+     "alt": "Salon en U SKY SCRAPER - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_SCRAPER_U_01.webp?v=1792506327",
+     "position": 2,
+     "alt": "Salon en U SKY SCRAPER - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_SCRAPER_U_02.webp?v=1792506308",
+     "position": 3,
+     "alt": "Salon en U SKY SCRAPER - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_SCRAPER_U_03.webp?v=1792506319",
+     "position": 4,
+     "alt": "Salon en U SKY SCRAPER - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_SCRAPER_U_04.webp?v=1792506321",
+     "position": 5,
+     "alt": "Salon en U SKY SCRAPER - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "265 x 550 x 190 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2299000,
+   "price_max": 2299000,
+   "available": true
+  },
+  {
+   "id": 8800000000032,
+   "handle": "sky-is-the-limit-u",
+   "title": "SKY IS THE LIMIT",
+   "body_html": "<p>Salon en U SKY IS THE LIMIT.</p><p>Dimensions : 450 x 350 x 195 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "450 x 350 x 195 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000031,
+     "sku": "SKY_IS_THE_LIMIT_U",
+     "price": 2599000,
+     "compare_at_price": null,
+     "option1": "450 x 350 x 195 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "450 x 350 x 195 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_IS_THE_LIMIT_U_01_AMBIANCE.webp?v=1792506298",
+     "position": 1,
+     "alt": "Salon en U SKY IS THE LIMIT - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_IS_THE_LIMIT_U_01.webp?v=1792506308",
+     "position": 2,
+     "alt": "Salon en U SKY IS THE LIMIT - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_IS_THE_LIMIT_U_02.webp?v=1792506288",
+     "position": 3,
+     "alt": "Salon en U SKY IS THE LIMIT - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_IS_THE_LIMIT_U_03.webp?v=1792506298",
+     "position": 4,
+     "alt": "Salon en U SKY IS THE LIMIT - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_IS_THE_LIMIT_U_04.webp?v=1792506307",
+     "position": 5,
+     "alt": "Salon en U SKY IS THE LIMIT - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "450 x 350 x 195 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2599000,
+   "price_max": 2599000,
+   "available": true
+  },
+  {
+   "id": 8800000000034,
+   "handle": "sky-gm-u",
+   "title": "SKY GM",
+   "body_html": "<p>Salon en U SKY GM.</p><p>Dimensions : 265 x 550 x 265 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "265 x 550 x 265 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000033,
+     "sku": "SKY_GM_U",
+     "price": 2499000,
+     "compare_at_price": null,
+     "option1": "265 x 550 x 265 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "265 x 550 x 265 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_U_01_AMBIANCE.webp?v=1792506273",
+     "position": 1,
+     "alt": "Salon en U SKY GM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_U_01.webp?v=1792506285",
+     "position": 2,
+     "alt": "Salon en U SKY GM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_U_02.webp?v=1792506628",
+     "position": 3,
+     "alt": "Salon en U SKY GM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_U_03.webp?v=1792506278",
+     "position": 4,
+     "alt": "Salon en U SKY GM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SKY_GM_U_04.webp?v=1792506288",
+     "position": 5,
+     "alt": "Salon en U SKY GM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "265 x 550 x 265 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2499000,
+   "price_max": 2499000,
+   "available": true
+  },
+  {
+   "id": 8800000000036,
+   "handle": "cloud-gm-l",
+   "title": "CLOUD GM",
+   "body_html": "<p>Salon en L CLOUD GM.</p><p>Dimensions : 450 x 250 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "450 x 250 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000035,
+     "sku": "CLOUD_GM_L",
+     "price": 1799000,
+     "compare_at_price": null,
+     "option1": "450 x 250 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "450 x 250 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_GM_L_01_AMBIANCE.webp?v=1792506256",
+     "position": 1,
+     "alt": "Salon en L CLOUD GM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_GM_L_01.webp?v=1792506638",
+     "position": 2,
+     "alt": "Salon en L CLOUD GM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_GM_L_02.webp?v=1792506246",
+     "position": 3,
+     "alt": "Salon en L CLOUD GM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_GM_L_03.webp?v=1792506256",
+     "position": 4,
+     "alt": "Salon en L CLOUD GM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CLOUD_GM_L_04.webp?v=1792506648",
+     "position": 5,
+     "alt": "Salon en L CLOUD GM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "450 x 250 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1799000,
+   "price_max": 1799000,
+   "available": true
+  },
+  {
+   "id": 8800000000038,
+   "handle": "olika-pm-u",
+   "title": "OLIKA PM",
+   "body_html": "<p>Salon en U OLIKA PM.</p><p>Dimensions : 420 X P 220 X H 65 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "420 X P 220 X H 65 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000037,
+     "sku": "OLIKA_PM_U",
+     "price": 1499000,
+     "compare_at_price": null,
+     "option1": "420 X P 220 X H 65 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "420 X P 220 X H 65 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_U_01_AMBIANCE.webp?v=1792506234",
+     "position": 1,
+     "alt": "Salon en U OLIKA PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_U_01.webp?v=1792506243",
+     "position": 2,
+     "alt": "Salon en U OLIKA PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_U_02.webp?v=1792506228",
+     "position": 3,
+     "alt": "Salon en U OLIKA PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_U_03.webp?v=1792506237",
+     "position": 4,
+     "alt": "Salon en U OLIKA PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OLIKA_PM_U_04.webp?v=1792506247",
+     "position": 5,
+     "alt": "Salon en U OLIKA PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "420 X P 220 X H 65 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1499000,
+   "price_max": 1499000,
+   "available": true
+  },
+  {
+   "id": 8800000000040,
+   "handle": "sofie-pm-l",
+   "title": "SOFIE PM",
+   "body_html": "<p>Salon en L SOFIE PM.</p><p>Dimensions : 290 x 160 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "290 x 160 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000039,
+     "sku": "SOFIE_PM_L",
+     "price": 1099000,
+     "compare_at_price": null,
+     "option1": "290 x 160 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "290 x 160 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SOFIE_PM_L_01_AMBIANCE.webp?v=1792506218",
+     "position": 1,
+     "alt": "Salon en L SOFIE PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SOFIE_PM_L_01.webp?v=1792506228",
+     "position": 2,
+     "alt": "Salon en L SOFIE PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SOFIE_PM_L_02.webp?v=1792506237",
+     "position": 3,
+     "alt": "Salon en L SOFIE PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SOFIE_PM_L_03.webp?v=1792506210",
+     "position": 4,
+     "alt": "Salon en L SOFIE PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SOFIE_PM_L_04.webp?v=1792506218",
+     "position": 5,
+     "alt": "Salon en L SOFIE PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "290 x 160 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1099000,
+   "price_max": 1099000,
+   "available": true
+  },
+  {
+   "id": 8800000000042,
+   "handle": "brooklyn-mm-l",
+   "title": "BROOKLYN MM",
+   "body_html": "<p>Salon en L BROOKLYN MM.</p><p>Dimensions : 325 x 325 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "325 x 325 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000041,
+     "sku": "BROOKLYN_MM_L",
+     "price": 1399000,
+     "compare_at_price": null,
+     "option1": "325 x 325 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "325 x 325 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_MM_L_01_AMBIANCE.webp?v=1792506183",
+     "position": 1,
+     "alt": "Salon en L BROOKLYN MM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_MM_L_01.webp?v=1792506192",
+     "position": 2,
+     "alt": "Salon en L BROOKLYN MM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_MM_L_02.webp?v=1792506201",
+     "position": 3,
+     "alt": "Salon en L BROOKLYN MM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_MM_L_03.webp?v=1792506196",
+     "position": 4,
+     "alt": "Salon en L BROOKLYN MM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_MM_L_04.webp?v=1792506206",
+     "position": 5,
+     "alt": "Salon en L BROOKLYN MM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "325 x 325 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1399000,
+   "price_max": 1399000,
+   "available": true
+  },
+  {
+   "id": 8800000000044,
+   "handle": "cooper-l",
+   "title": "COOPER",
+   "body_html": "<p>Salon en L COOPER.</p><p>Dimensions : 260 x 280 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "260 x 280 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000043,
+     "sku": "COOPER_L",
+     "price": 1099000,
+     "compare_at_price": null,
+     "option1": "260 x 280 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "260 x 280 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COOPER_L_01_AMBIANCE.webp?v=1792506197",
+     "position": 1,
+     "alt": "Salon en L COOPER - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COOPER_L_01.webp?v=1792506207",
+     "position": 2,
+     "alt": "Salon en L COOPER - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COOPER_L_02.webp?v=1792506163",
+     "position": 3,
+     "alt": "Salon en L COOPER - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COOPER_L_03.webp?v=1792506175",
+     "position": 4,
+     "alt": "Salon en L COOPER - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COOPER_L_04.webp?v=1792506189",
+     "position": 5,
+     "alt": "Salon en L COOPER - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "260 x 280 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1099000,
+   "price_max": 1099000,
+   "available": true
+  },
+  {
+   "id": 8800000000046,
+   "handle": "milo-l",
+   "title": "MILO",
+   "body_html": "<p>Salon en L MILO.</p><p>Dimensions : 360 x 185 x H65 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "360 x 185 x H65 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000045,
+     "sku": "MILO_L",
+     "price": 999000,
+     "compare_at_price": null,
+     "option1": "360 x 185 x H65 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "360 x 185 x H65 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILO_L_01_AMBIANCE.webp?v=1792506145",
+     "position": 1,
+     "alt": "Salon en L MILO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILO_L_01.webp?v=1792506154",
+     "position": 2,
+     "alt": "Salon en L MILO - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILO_L_02.webp?v=1792506166",
+     "position": 3,
+     "alt": "Salon en L MILO - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILO_L_03.webp?v=1792506177",
+     "position": 4,
+     "alt": "Salon en L MILO - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MILO_L_04.webp?v=1792506187",
+     "position": 5,
+     "alt": "Salon en L MILO - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "360 x 185 x H65 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 999000,
+   "price_max": 999000,
+   "available": true
+  },
+  {
+   "id": 8800000000048,
+   "handle": "elya-l",
+   "title": "ELYA",
+   "body_html": "<p>Salon en L ELYA.</p><p>Dimensions : 350 x 350 H65 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "350 x 350 H65 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000047,
+     "sku": "ELYA_L",
+     "price": 1699000,
+     "compare_at_price": null,
+     "option1": "350 x 350 H65 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "350 x 350 H65 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELYA_L_01_AMBIANCE.webp?v=1792506128",
+     "position": 1,
+     "alt": "Salon en L ELYA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELYA_L_01.webp?v=1792506137",
+     "position": 2,
+     "alt": "Salon en L ELYA - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELYA_L_02.webp?v=1792506148",
+     "position": 3,
+     "alt": "Salon en L ELYA - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELYA_L_03.webp?v=1792506136",
+     "position": 4,
+     "alt": "Salon en L ELYA - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELYA_L_04.webp?v=1792506147",
+     "position": 5,
+     "alt": "Salon en L ELYA - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "350 x 350 H65 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1699000,
+   "price_max": 1699000,
+   "available": true
+  },
+  {
+   "id": 8800000000050,
+   "handle": "nolita-gm-l",
+   "title": "NOLITA GM",
+   "body_html": "<p>Salon en L NOLITA GM.</p><p>Dimensions : 320 x 350 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "320 x 350 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000049,
+     "sku": "NOLITA_GM_L",
+     "price": 2199000,
+     "compare_at_price": null,
+     "option1": "320 x 350 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "320 x 350 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_L_01_AMBIANCE.webp?v=1792506117",
+     "position": 1,
+     "alt": "Salon en L NOLITA GM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_L_01.webp?v=1792506127",
+     "position": 2,
+     "alt": "Salon en L NOLITA GM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_L_02.webp?v=1792506137",
+     "position": 3,
+     "alt": "Salon en L NOLITA GM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_L_03.webp?v=1792506145",
+     "position": 4,
+     "alt": "Salon en L NOLITA GM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_L_04.webp?v=1792506118",
+     "position": 5,
+     "alt": "Salon en L NOLITA GM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "320 x 350 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2199000,
+   "price_max": 2199000,
+   "available": true
+  },
+  {
+   "id": 8800000000052,
+   "handle": "kris-l",
+   "title": "KRIS",
+   "body_html": "<p>Salon en L KRIS.</p><p>Dimensions : 320 x 260 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "320 x 260 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000051,
+     "sku": "KRIS_L",
+     "price": 2195000,
+     "compare_at_price": null,
+     "option1": "320 x 260 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "320 x 260 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_L_01_AMBIANCE.webp?v=1792506107",
+     "position": 1,
+     "alt": "Salon en L KRIS - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_L_01.webp?v=1792506088",
+     "position": 2,
+     "alt": "Salon en L KRIS - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_L_02.webp?v=1792506103",
+     "position": 3,
+     "alt": "Salon en L KRIS - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_L_03.webp?v=1792506097",
+     "position": 4,
+     "alt": "Salon en L KRIS - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_L_04.webp?v=1792506106",
+     "position": 5,
+     "alt": "Salon en L KRIS - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "320 x 260 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2195000,
+   "price_max": 2195000,
+   "available": true
+  },
+  {
+   "id": 8800000000054,
+   "handle": "nolita-pm-l",
+   "title": "NOLITA PM",
+   "body_html": "<p>Salon en L NOLITA PM.</p><p>Dimensions : 350 x 290 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "350 x 290 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000053,
+     "sku": "NOLITA_PM_L",
+     "price": 1899000,
+     "compare_at_price": null,
+     "option1": "350 x 290 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "350 x 290 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_L_01_AMBIANCE.webp?v=1792506090",
+     "position": 1,
+     "alt": "Salon en L NOLITA PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_L_01.webp?v=1792506070",
+     "position": 2,
+     "alt": "Salon en L NOLITA PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_L_02.webp?v=1792506079",
+     "position": 3,
+     "alt": "Salon en L NOLITA PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_L_03.webp?v=1792506088",
+     "position": 4,
+     "alt": "Salon en L NOLITA PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_L_04.webp?v=1792506097",
+     "position": 5,
+     "alt": "Salon en L NOLITA PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "350 x 290 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1899000,
+   "price_max": 1899000,
+   "available": true
+  },
+  {
+   "id": 8800000000056,
+   "handle": "cosmo-l",
+   "title": "COSMO",
+   "body_html": "<p>Salon en L COSMO.</p><p>Dimensions : 440 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "440 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000055,
+     "sku": "COSMO_L",
+     "price": 1990000,
+     "compare_at_price": null,
+     "option1": "440 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "440 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COSMO_L_01_AMBIANCE.webp?v=1792506064",
+     "position": 1,
+     "alt": "Salon en L COSMO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COSMO_L_01.webp?v=1792506052",
+     "position": 2,
+     "alt": "Salon en L COSMO - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COSMO_L_02.webp?v=1792506061",
+     "position": 3,
+     "alt": "Salon en L COSMO - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COSMO_L_03.webp?v=1792506070",
+     "position": 4,
+     "alt": "Salon en L COSMO - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/COSMO_L_04.webp?v=1792506080",
+     "position": 5,
+     "alt": "Salon en L COSMO - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "440 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1990000,
+   "price_max": 1990000,
+   "available": true
+  },
+  {
+   "id": 8800000000058,
+   "handle": "opale-l",
+   "title": "OPALE",
+   "body_html": "<p>Salon en L OPALE.</p><p>Dimensions : 385 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "385 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000057,
+     "sku": "OPALE_L",
+     "price": 1590000,
+     "compare_at_price": null,
+     "option1": "385 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "385 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OPALE_L_01_AMBIANCE.webp?v=1792506053",
+     "position": 1,
+     "alt": "Salon en L OPALE - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OPALE_L_01.webp?v=1792506063",
+     "position": 2,
+     "alt": "Salon en L OPALE - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OPALE_L_02.webp?v=1792506036",
+     "position": 3,
+     "alt": "Salon en L OPALE - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OPALE_L_03.webp?v=1792506047",
+     "position": 4,
+     "alt": "Salon en L OPALE - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/OPALE_L_04.webp?v=1792506056",
+     "position": 5,
+     "alt": "Salon en L OPALE - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "385 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1590000,
+   "price_max": 1590000,
+   "available": true
+  },
+  {
+   "id": 8800000000060,
+   "handle": "bellagio-l",
+   "title": "BELLAGIO",
+   "body_html": "<p>Salon en L BELLAGIO.</p><p>Dimensions : 360 x 360 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "360 x 360 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000059,
+     "sku": "BELLAGIO_L",
+     "price": 1899000,
+     "compare_at_price": null,
+     "option1": "360 x 360 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "360 x 360 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_L_01_AMBIANCE.webp?v=1792506027",
+     "position": 1,
+     "alt": "Salon en L BELLAGIO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_L_01.webp?v=1792506039",
+     "position": 2,
+     "alt": "Salon en L BELLAGIO - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_L_02.webp?v=1792506021",
+     "position": 3,
+     "alt": "Salon en L BELLAGIO - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_L_03.webp?v=1792506032",
+     "position": 4,
+     "alt": "Salon en L BELLAGIO - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_L_04.webp?v=1792506042",
+     "position": 5,
+     "alt": "Salon en L BELLAGIO - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "360 x 360 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1899000,
+   "price_max": 1899000,
+   "available": true
+  },
+  {
+   "id": 8800000000062,
+   "handle": "bering-l",
+   "title": "BERING",
+   "body_html": "<p>Salon en L BERING.</p><p>Dimensions : 350 x 350 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "350 x 350 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000061,
+     "sku": "BERING_L",
+     "price": 1799000,
+     "compare_at_price": null,
+     "option1": "350 x 350 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "350 x 350 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_L_01_AMBIANCE.webp?v=1792505997",
+     "position": 1,
+     "alt": "Salon en L BERING - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_L_01.webp?v=1792506010",
+     "position": 2,
+     "alt": "Salon en L BERING - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_L_02.webp?v=1792506021",
+     "position": 3,
+     "alt": "Salon en L BERING - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_L_03.webp?v=1792506007",
+     "position": 4,
+     "alt": "Salon en L BERING - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_L_04.webp?v=1792506017",
+     "position": 5,
+     "alt": "Salon en L BERING - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "350 x 350 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1799000,
+   "price_max": 1799000,
+   "available": true
+  },
+  {
+   "id": 8800000000064,
+   "handle": "nolita-pm-u",
+   "title": "NOLITA PM",
+   "body_html": "<p>Salon en U NOLITA PM.</p><p>Dimensions : 250 x 400 x 250 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "250 x 400 x 250 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000063,
+     "sku": "NOLITA_PM_U",
+     "price": 2485000,
+     "compare_at_price": null,
+     "option1": "250 x 400 x 250 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "250 x 400 x 250 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_U_01_AMBIANCE.webp?v=1792505972",
+     "position": 1,
+     "alt": "Salon en U NOLITA PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_U_01.webp?v=1792505988",
+     "position": 2,
+     "alt": "Salon en U NOLITA PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_U_02.webp?v=1792505999",
+     "position": 3,
+     "alt": "Salon en U NOLITA PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_U_03.webp?v=1792506008",
+     "position": 4,
+     "alt": "Salon en U NOLITA PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_PM_U_04.webp?v=1792506017",
+     "position": 5,
+     "alt": "Salon en U NOLITA PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "250 x 400 x 250 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2485000,
+   "price_max": 2485000,
+   "available": true
+  },
+  {
+   "id": 8800000000066,
+   "handle": "loft-l",
+   "title": "LOFT",
+   "body_html": "<p>Salon en L LOFT.</p><p>Dimensions : 300 x 255 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "300 x 255 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000065,
+     "sku": "LOFT_L",
+     "price": 1399000,
+     "compare_at_price": null,
+     "option1": "300 x 255 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "300 x 255 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOFT_L_01_AMBIANCE.webp?v=1792505953",
+     "position": 1,
+     "alt": "Salon en L LOFT - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOFT_L_01.webp?v=1792505963",
+     "position": 2,
+     "alt": "Salon en L LOFT - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOFT_L_02.webp?v=1792505972",
+     "position": 3,
+     "alt": "Salon en L LOFT - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOFT_L_03.webp?v=1792505981",
+     "position": 4,
+     "alt": "Salon en L LOFT - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOFT_L_04.webp?v=1792505989",
+     "position": 5,
+     "alt": "Salon en L LOFT - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "300 x 255 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1399000,
+   "price_max": 1399000,
+   "available": true
+  },
+  {
+   "id": 8800000000068,
+   "handle": "orrvelo-pm-l",
+   "title": "ORRVELO PM",
+   "body_html": "<p>Salon en L ORRVELO PM.</p><p>Dimensions : 350 x 190 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "350 x 190 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000067,
+     "sku": "ORRVELO_PM_L",
+     "price": 1385000,
+     "compare_at_price": null,
+     "option1": "350 x 190 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "350 x 190 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ORRVELO_PM_L_01_AMBIANCE.webp?v=1792505935",
+     "position": 1,
+     "alt": "Salon en L ORRVELO PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ORRVELO_PM_L_01.webp?v=1792505944",
+     "position": 2,
+     "alt": "Salon en L ORRVELO PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ORRVELO_PM_L_02.webp?v=1792505954",
+     "position": 3,
+     "alt": "Salon en L ORRVELO PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ORRVELO_PM_L_03.webp?v=1792505963",
+     "position": 4,
+     "alt": "Salon en L ORRVELO PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ORRVELO_PM_L_04.webp?v=1792505972",
+     "position": 5,
+     "alt": "Salon en L ORRVELO PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "350 x 190 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1385000,
+   "price_max": 1385000,
+   "available": true
+  },
+  {
+   "id": 8800000000070,
+   "handle": "cairo-pm-l",
+   "title": "CAIRO PM",
+   "body_html": "<p>Salon en L CAIRO PM.</p><p>Dimensions : 370 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "370 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000069,
+     "sku": "CAIRO_PM_L",
+     "price": 1250000,
+     "compare_at_price": null,
+     "option1": "370 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "370 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_PM_L_01_AMBIANCE.webp?v=1792505917",
+     "position": 1,
+     "alt": "Salon en L CAIRO PM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_PM_L_01.webp?v=1792505926",
+     "position": 2,
+     "alt": "Salon en L CAIRO PM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_PM_L_02.webp?v=1792505937",
+     "position": 3,
+     "alt": "Salon en L CAIRO PM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_PM_L_03.webp?v=1792505947",
+     "position": 4,
+     "alt": "Salon en L CAIRO PM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_PM_L_04.webp?v=1792505960",
+     "position": 5,
+     "alt": "Salon en L CAIRO PM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "370 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1250000,
+   "price_max": 1250000,
+   "available": true
+  },
+  {
+   "id": 8800000000072,
+   "handle": "bering-u",
+   "title": "BERING",
+   "body_html": "<p>Salon en U BERING.</p><p>Dimensions : 355 x 520 x 355 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "355 x 520 x 355 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000071,
+     "sku": "BERING_U",
+     "price": 2980000,
+     "compare_at_price": null,
+     "option1": "355 x 520 x 355 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "355 x 520 x 355 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_U_01_AMBIANCE.webp?v=1792505900",
+     "position": 1,
+     "alt": "Salon en U BERING - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_U_01.webp?v=1792505908",
+     "position": 2,
+     "alt": "Salon en U BERING - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_U_02.webp?v=1792505917",
+     "position": 3,
+     "alt": "Salon en U BERING - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_U_03.webp?v=1792505926",
+     "position": 4,
+     "alt": "Salon en U BERING - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BERING_U_04.webp?v=1792505935",
+     "position": 5,
+     "alt": "Salon en U BERING - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "355 x 520 x 355 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2980000,
+   "price_max": 2980000,
+   "available": true
+  },
+  {
+   "id": 8800000000074,
+   "handle": "hugo-l",
+   "title": "HUGO",
+   "body_html": "<p>Salon en L HUGO.</p><p>Dimensions : 315 x 315 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "315 x 315 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000073,
+     "sku": "HUGO_L",
+     "price": 1450000,
+     "compare_at_price": null,
+     "option1": "315 x 315 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "315 x 315 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HUGO_L_01_AMBIANCE.webp?v=1792505880",
+     "position": 1,
+     "alt": "Salon en L HUGO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HUGO_L_01.webp?v=1792505890",
+     "position": 2,
+     "alt": "Salon en L HUGO - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HUGO_L_02.webp?v=1792505900",
+     "position": 3,
+     "alt": "Salon en L HUGO - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HUGO_L_03.webp?v=1792505908",
+     "position": 4,
+     "alt": "Salon en L HUGO - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HUGO_L_04.webp?v=1792505919",
+     "position": 5,
+     "alt": "Salon en L HUGO - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "315 x 315 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1450000,
+   "price_max": 1450000,
+   "available": true
+  },
+  {
+   "id": 8800000000076,
+   "handle": "cubica-l",
+   "title": "CUBICA",
+   "body_html": "<p>Salon en L CUBICA.</p><p>Dimensions : 250 x 150 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "250 x 150 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000075,
+     "sku": "CUBICA_L",
+     "price": 699000,
+     "compare_at_price": null,
+     "option1": "250 x 150 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "250 x 150 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CUBICA_L_01_AMBIANCE.webp?v=1792505882",
+     "position": 1,
+     "alt": "Salon en L CUBICA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CUBICA_L_01.webp?v=1792505891",
+     "position": 2,
+     "alt": "Salon en L CUBICA - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CUBICA_L_02.webp?v=1792505900",
+     "position": 3,
+     "alt": "Salon en L CUBICA - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CUBICA_L_03.webp?v=1792505873",
+     "position": 4,
+     "alt": "Salon en L CUBICA - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CUBICA_L_04.webp?v=1792505882",
+     "position": 5,
+     "alt": "Salon en L CUBICA - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "250 x 150 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 699000,
+   "price_max": 699000,
+   "available": true
+  },
+  {
+   "id": 8800000000078,
+   "handle": "nolita-gm-u",
+   "title": "NOLITA GM",
+   "body_html": "<p>Salon en U NOLITA GM.</p><p>Dimensions : 250 x 375 x 250 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "250 x 375 x 250 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000077,
+     "sku": "NOLITA_GM_U",
+     "price": 2499000,
+     "compare_at_price": null,
+     "option1": "250 x 375 x 250 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "250 x 375 x 250 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_U_01_AMBIANCE.webp?v=1792505857",
+     "position": 1,
+     "alt": "Salon en U NOLITA GM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_U_01.webp?v=1792505864",
+     "position": 2,
+     "alt": "Salon en U NOLITA GM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_U_02.webp?v=1792505848",
+     "position": 3,
+     "alt": "Salon en U NOLITA GM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_U_03.webp?v=1792505864",
+     "position": 4,
+     "alt": "Salon en U NOLITA GM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NOLITA_GM_U_04.webp?v=1792505873",
+     "position": 5,
+     "alt": "Salon en U NOLITA GM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "250 x 375 x 250 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2499000,
+   "price_max": 2499000,
+   "available": true
+  },
+  {
+   "id": 8800000000080,
+   "handle": "bellagio-u",
+   "title": "BELLAGIO",
+   "body_html": "<p>Salon en U BELLAGIO.</p><p>Dimensions : 250 x 400 x 250 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "250 x 400 x 250 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000079,
+     "sku": "BELLAGIO_U",
+     "price": 2390000,
+     "compare_at_price": null,
+     "option1": "250 x 400 x 250 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "250 x 400 x 250 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_U_01_AMBIANCE.webp?v=1792505840",
+     "position": 1,
+     "alt": "Salon en U BELLAGIO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_U_01.webp?v=1792505848",
+     "position": 2,
+     "alt": "Salon en U BELLAGIO - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_U_02.webp?v=1792505830",
+     "position": 3,
+     "alt": "Salon en U BELLAGIO - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_U_03.webp?v=1792505838",
+     "position": 4,
+     "alt": "Salon en U BELLAGIO - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BELLAGIO_U_04.webp?v=1792505849",
+     "position": 5,
+     "alt": "Salon en U BELLAGIO - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "250 x 400 x 250 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2390000,
+   "price_max": 2390000,
+   "available": true
+  },
+  {
+   "id": 8800000000082,
+   "handle": "velart-l",
+   "title": "VELART",
+   "body_html": "<p>Salon en L VELART.</p><p>Dimensions : 450 x 400 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "450 x 400 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000081,
+     "sku": "VELART_L",
+     "price": 2099000,
+     "compare_at_price": null,
+     "option1": "450 x 400 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "450 x 400 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELART_L_01_AMBIANCE.webp?v=1792505800",
+     "position": 1,
+     "alt": "Salon en L VELART - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELART_L_01.webp?v=1792505813",
+     "position": 2,
+     "alt": "Salon en L VELART - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELART_L_02.webp?v=1792505811",
+     "position": 3,
+     "alt": "Salon en L VELART - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELART_L_03.webp?v=1792505821",
+     "position": 4,
+     "alt": "Salon en L VELART - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELART_L_04.webp?v=1792505830",
+     "position": 5,
+     "alt": "Salon en L VELART - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "450 x 400 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2099000,
+   "price_max": 2099000,
+   "available": true
+  },
+  {
+   "id": 8800000000084,
+   "handle": "brooklyn-pm-meridienne-l",
+   "title": "BROOKLYN PM MÉRIDIENNE",
+   "body_html": "<p>Salon en L BROOKLYN PM MÉRIDIENNE.</p><p>Dimensions : 320 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "320 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000083,
+     "sku": "BROOKLYN_PM_MERIDIENNE_L",
+     "price": 1299000,
+     "compare_at_price": null,
+     "option1": "320 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "320 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_PM_MERIDIENNE_L_01_AMBIANCE.webp?v=1792505802",
+     "position": 1,
+     "alt": "Salon en L BROOKLYN PM MÉRIDIENNE - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_PM_MERIDIENNE_L_01.webp?v=1792505812",
+     "position": 2,
+     "alt": "Salon en L BROOKLYN PM MÉRIDIENNE - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_PM_MERIDIENNE_L_02.webp?v=1792505821",
+     "position": 3,
+     "alt": "Salon en L BROOKLYN PM MÉRIDIENNE - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_PM_MERIDIENNE_L_03.webp?v=1792505830",
+     "position": 4,
+     "alt": "Salon en L BROOKLYN PM MÉRIDIENNE - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_PM_MERIDIENNE_L_04.webp?v=1792505792",
+     "position": 5,
+     "alt": "Salon en L BROOKLYN PM MÉRIDIENNE - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "320 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1299000,
+   "price_max": 1299000,
+   "available": true
+  },
+  {
+   "id": 8800000000086,
+   "handle": "brooklyn-gm-meridienne-l",
+   "title": "BROOKLYN GM MÉRIDIENNE",
+   "body_html": "<p>Salon en L BROOKLYN GM MÉRIDIENNE.</p><p>Dimensions : 400 x 220 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "400 x 220 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000085,
+     "sku": "BROOKLYN_GM_MERIDIENNE_L",
+     "price": 1669000,
+     "compare_at_price": null,
+     "option1": "400 x 220 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "400 x 220 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_GM_MERIDIENNE_L_01_AMBIANCE.webp?v=1792505771",
+     "position": 1,
+     "alt": "Salon en L BROOKLYN GM MÉRIDIENNE - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_GM_MERIDIENNE_L_01.webp?v=1792505761",
+     "position": 2,
+     "alt": "Salon en L BROOKLYN GM MÉRIDIENNE - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_GM_MERIDIENNE_L_02.webp?v=1792505772",
+     "position": 3,
+     "alt": "Salon en L BROOKLYN GM MÉRIDIENNE - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_GM_MERIDIENNE_L_03.webp?v=1792505782",
+     "position": 4,
+     "alt": "Salon en L BROOKLYN GM MÉRIDIENNE - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BROOKLYN_GM_MERIDIENNE_L_04.webp?v=1792505791",
+     "position": 5,
+     "alt": "Salon en L BROOKLYN GM MÉRIDIENNE - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "400 x 220 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1669000,
+   "price_max": 1669000,
+   "available": true
+  },
+  {
+   "id": 8800000000088,
+   "handle": "elite-l",
+   "title": "ELITE",
+   "body_html": "<p>Salon en L ELITE.</p><p>Dimensions : 320 x 320 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "320 x 320 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000087,
+     "sku": "ELITE_L",
+     "price": 1399000,
+     "compare_at_price": null,
+     "option1": "320 x 320 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "320 x 320 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_L_01_AMBIANCE.webp?v=1792505763",
+     "position": 1,
+     "alt": "Salon en L ELITE - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_L_01.webp?v=1792505772",
+     "position": 2,
+     "alt": "Salon en L ELITE - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_L_02.webp?v=1792505743",
+     "position": 3,
+     "alt": "Salon en L ELITE - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_L_03.webp?v=1792505753",
+     "position": 4,
+     "alt": "Salon en L ELITE - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_L_04.webp?v=1792505763",
+     "position": 5,
+     "alt": "Salon en L ELITE - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "320 x 320 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1399000,
+   "price_max": 1399000,
+   "available": true
+  },
+  {
+   "id": 8800000000090,
+   "handle": "elite-u",
+   "title": "ELITE",
+   "body_html": "<p>Salon en U ELITE.</p><p>Dimensions : 320 x 450 x 330 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "320 x 450 x 330 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000089,
+     "sku": "ELITE_U",
+     "price": 2499000,
+     "compare_at_price": null,
+     "option1": "320 x 450 x 330 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "320 x 450 x 330 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_U_01_AMBIANCE.webp?v=1792505742",
+     "position": 1,
+     "alt": "Salon en U ELITE - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_U_01.webp?v=1792505727",
+     "position": 2,
+     "alt": "Salon en U ELITE - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_U_02.webp?v=1792505735",
+     "position": 3,
+     "alt": "Salon en U ELITE - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_U_03.webp?v=1792505743",
+     "position": 4,
+     "alt": "Salon en U ELITE - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELITE_U_04.webp?v=1792505752",
+     "position": 5,
+     "alt": "Salon en U ELITE - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "320 x 450 x 330 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2499000,
+   "price_max": 2499000,
+   "available": true
+  },
+  {
+   "id": 8800000000092,
+   "handle": "kris-u",
+   "title": "KRIS",
+   "body_html": "<p>Salon en U KRIS.</p><p>Dimensions : 250x 350 x 215 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en U",
+   "tags": [
+    "Salon",
+    "salon-en-u"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "250x 350 x 215 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000091,
+     "sku": "KRIS_U",
+     "price": 1999000,
+     "compare_at_price": null,
+     "option1": "250x 350 x 215 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "250x 350 x 215 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_U_01_AMBIANCE.webp?v=1792505724",
+     "position": 1,
+     "alt": "Salon en U KRIS - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_U_01.webp?v=1792505732",
+     "position": 2,
+     "alt": "Salon en U KRIS - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_U_02.webp?v=1792505712",
+     "position": 3,
+     "alt": "Salon en U KRIS - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_U_03.webp?v=1792505722",
+     "position": 4,
+     "alt": "Salon en U KRIS - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/KRIS_U_04.webp?v=1792505732",
+     "position": 5,
+     "alt": "Salon en U KRIS - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "250x 350 x 215 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1999000,
+   "price_max": 1999000,
+   "available": true
+  },
+  {
+   "id": 8800000000094,
+   "handle": "cairo-gm-l",
+   "title": "CAIRO GM",
+   "body_html": "<p>Salon en L CAIRO GM.</p><p>Dimensions : 350 x 250 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "350 x 250 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000093,
+     "sku": "CAIRO_GM_L",
+     "price": 1499000,
+     "compare_at_price": null,
+     "option1": "350 x 250 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "350 x 250 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_GM_L_01_AMBIANCE.webp?v=1792505718",
+     "position": 1,
+     "alt": "Salon en L CAIRO GM - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_GM_L_01.webp?v=1792505682",
+     "position": 2,
+     "alt": "Salon en L CAIRO GM - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_GM_L_02.webp?v=1792505690",
+     "position": 3,
+     "alt": "Salon en L CAIRO GM - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_GM_L_03.webp?v=1792505703",
+     "position": 4,
+     "alt": "Salon en L CAIRO GM - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/CAIRO_GM_L_04.webp?v=1792505712",
+     "position": 5,
+     "alt": "Salon en L CAIRO GM - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "350 x 250 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1499000,
+   "price_max": 1499000,
+   "available": true
+  },
+  {
+   "id": 8800000000096,
+   "handle": "loren-l",
+   "title": "LOREN",
+   "body_html": "<p>Salon en L LOREN.</p><p>Dimensions : 330 x 190 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Salon en L",
+   "tags": [
+    "Salon",
+    "salon-en-l"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "330 x 190 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000095,
+     "sku": "LOREN_L",
+     "price": 1380000,
+     "compare_at_price": null,
+     "option1": "330 x 190 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "330 x 190 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOREN_L_01_AMBIANCE.webp?v=1792505671",
+     "position": 1,
+     "alt": "Salon en L LOREN - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOREN_L_01.webp?v=1792505689",
+     "position": 2,
+     "alt": "Salon en L LOREN - vue 1",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOREN_L_02.webp?v=1792505679",
+     "position": 3,
+     "alt": "Salon en L LOREN - vue 2",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOREN_L_03.webp?v=1792505698",
+     "position": 4,
+     "alt": "Salon en L LOREN - vue 3",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/LOREN_L_04.webp?v=1792505708",
+     "position": 5,
+     "alt": "Salon en L LOREN - vue 4",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "330 x 190 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1380000,
+   "price_max": 1380000,
+   "available": true
+  },
+  {
+   "id": 8800000000103,
+   "handle": "karlo",
+   "title": "KARLO",
+   "body_html": "<p>Lit KARLO.</p><p>Dimensions disponibles : 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm.</p><p>Disponible avec ou sans rangement.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "160 x 200 cm",
+      "180 x 200 cm",
+      "200 x 200 cm"
+     ]
+    },
+    {
+     "name": "Rangement",
+     "position": 2,
+     "values": [
+      "Sans",
+      "Avec"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000097,
+     "sku": "KARLO-160-X-200-CM-SANS",
+     "price": 1650000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000098,
+     "sku": "KARLO-160-X-200-CM-AVEC",
+     "price": 1800000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000099,
+     "sku": "KARLO-180-X-200-CM-SANS",
+     "price": 1839500,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000100,
+     "sku": "KARLO-180-X-200-CM-AVEC",
+     "price": 1989500,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000101,
+     "sku": "KARLO-200-X-200-CM-SANS",
+     "price": 2180000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000102,
+     "sku": "KARLO-200-X-200-CM-AVEC",
+     "price": 2330000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Avec",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELVIS_01_AMBIANCE.webp?v=1792503447",
+     "position": 1,
+     "alt": "Lit KARLO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELVIS_02_FACE.webp?v=1792503447",
+     "position": 2,
+     "alt": "Lit KARLO - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELVIS_03_GAUCHE.webp?v=1792503447",
+     "position": 3,
+     "alt": "Lit KARLO - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELVIS_04_DROITE.webp?v=1792503447",
+     "position": 4,
+     "alt": "Lit KARLO - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ELVIS_05_PLONGEE.webp?v=1792503446",
+     "position": 5,
+     "alt": "Lit KARLO - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1650000,
+   "price_max": 2330000,
+   "available": true
+  },
+  {
+   "id": 8800000000114,
+   "handle": "soren",
+   "title": "SOREN",
+   "body_html": "<p>Lit SOREN.</p><p>Dimensions disponibles : 90 x 200 cm ; 140 x 200 cm ; 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm.</p><p>Disponible avec ou sans rangement.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "90 x 200 cm",
+      "140 x 200 cm",
+      "160 x 200 cm",
+      "180 x 200 cm",
+      "200 x 200 cm"
+     ]
+    },
+    {
+     "name": "Rangement",
+     "position": 2,
+     "values": [
+      "Sans",
+      "Avec"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000104,
+     "sku": "SOREN-90-X-200-CM-SANS",
+     "price": 333000,
+     "compare_at_price": null,
+     "option1": "90 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "90 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000105,
+     "sku": "SOREN-90-X-200-CM-AVEC",
+     "price": 483000,
+     "compare_at_price": null,
+     "option1": "90 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "90 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000106,
+     "sku": "SOREN-140-X-200-CM-SANS",
+     "price": 518000,
+     "compare_at_price": null,
+     "option1": "140 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000107,
+     "sku": "SOREN-140-X-200-CM-AVEC",
+     "price": 668000,
+     "compare_at_price": null,
+     "option1": "140 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000108,
+     "sku": "SOREN-160-X-200-CM-SANS",
+     "price": 592000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000109,
+     "sku": "SOREN-160-X-200-CM-AVEC",
+     "price": 742000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000110,
+     "sku": "SOREN-180-X-200-CM-SANS",
+     "price": 666000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000111,
+     "sku": "SOREN-180-X-200-CM-AVEC",
+     "price": 816000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000112,
+     "sku": "SOREN-200-X-200-CM-SANS",
+     "price": 740000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000113,
+     "sku": "SOREN-200-X-200-CM-AVEC",
+     "price": 890000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Avec",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SIAMESE_01_AMBIANCE.webp?v=1792503513",
+     "position": 1,
+     "alt": "Lit SOREN - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SIAMESE_02_FACE.webp?v=1792503513",
+     "position": 2,
+     "alt": "Lit SOREN - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SIAMESE_03_GAUCHE.webp?v=1792503513",
+     "position": 3,
+     "alt": "Lit SOREN - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SIAMESE_04_DROITE.webp?v=1792503513",
+     "position": 4,
+     "alt": "Lit SOREN - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SIAMESE_05_PLONGEE.webp?v=1792503513",
+     "position": 5,
+     "alt": "Lit SOREN - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "90 x 200 cm ; 140 x 200 cm ; 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 333000,
+   "price_max": 890000,
+   "available": true
+  },
+  {
+   "id": 8800000000125,
+   "handle": "orion",
+   "title": "ORION",
+   "body_html": "<p>Lit ORION.</p><p>Dimensions disponibles : 90 x 200 cm ; 140 x 200 cm ; 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm.</p><p>Disponible avec ou sans rangement.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "90 x 200 cm",
+      "140 x 200 cm",
+      "160 x 200 cm",
+      "180 x 200 cm",
+      "200 x 200 cm"
+     ]
+    },
+    {
+     "name": "Rangement",
+     "position": 2,
+     "values": [
+      "Sans",
+      "Avec"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000115,
+     "sku": "ORION-90-X-200-CM-SANS",
+     "price": 495000,
+     "compare_at_price": null,
+     "option1": "90 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "90 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000116,
+     "sku": "ORION-90-X-200-CM-AVEC",
+     "price": 645000,
+     "compare_at_price": null,
+     "option1": "90 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "90 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000117,
+     "sku": "ORION-140-X-200-CM-SANS",
+     "price": 698000,
+     "compare_at_price": null,
+     "option1": "140 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000118,
+     "sku": "ORION-140-X-200-CM-AVEC",
+     "price": 920000,
+     "compare_at_price": null,
+     "option1": "140 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000119,
+     "sku": "ORION-160-X-200-CM-SANS",
+     "price": 796000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000120,
+     "sku": "ORION-160-X-200-CM-AVEC",
+     "price": 1030000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000121,
+     "sku": "ORION-180-X-200-CM-SANS",
+     "price": 888000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000122,
+     "sku": "ORION-180-X-200-CM-AVEC",
+     "price": 1140000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000123,
+     "sku": "ORION-200-X-200-CM-SANS",
+     "price": 1100000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000124,
+     "sku": "ORION-200-X-200-CM-AVEC",
+     "price": 1250000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Avec",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/JUPITER_01_AMBIANCE.webp?v=1792503463",
+     "position": 1,
+     "alt": "Lit ORION - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/JUPITER_02_FACE.webp?v=1792503463",
+     "position": 2,
+     "alt": "Lit ORION - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/JUPITER_03_GAUCHE.webp?v=1792503463",
+     "position": 3,
+     "alt": "Lit ORION - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/JUPITER_04_DROITE.webp?v=1792503463",
+     "position": 4,
+     "alt": "Lit ORION - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/JUPITER_05_PLONGEE.webp?v=1792503463",
+     "position": 5,
+     "alt": "Lit ORION - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "90 x 200 cm ; 140 x 200 cm ; 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 495000,
+   "price_max": 1250000,
+   "available": true
+  },
+  {
+   "id": 8800000000134,
+   "handle": "celesto",
+   "title": "CÉLESTO",
+   "body_html": "<p>Lit CÉLESTO.</p><p>Dimensions disponibles : 140 x 200 cm ; 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm.</p><p>Disponible avec ou sans rangement.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "140 x 200 cm",
+      "160 x 200 cm",
+      "180 x 200 cm",
+      "200 x 200 cm"
+     ]
+    },
+    {
+     "name": "Rangement",
+     "position": 2,
+     "values": [
+      "Sans",
+      "Avec"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000126,
+     "sku": "CELESTO-140-X-200-CM-SANS",
+     "price": 728000,
+     "compare_at_price": null,
+     "option1": "140 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000127,
+     "sku": "CELESTO-140-X-200-CM-AVEC",
+     "price": 878000,
+     "compare_at_price": null,
+     "option1": "140 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000128,
+     "sku": "CELESTO-160-X-200-CM-SANS",
+     "price": 760500,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000129,
+     "sku": "CELESTO-160-X-200-CM-AVEC",
+     "price": 982000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000130,
+     "sku": "CELESTO-180-X-200-CM-SANS",
+     "price": 892500,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000131,
+     "sku": "CELESTO-180-X-200-CM-AVEC",
+     "price": 1086000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000132,
+     "sku": "CELESTO-200-X-200-CM-SANS",
+     "price": 1040000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000133,
+     "sku": "CELESTO-200-X-200-CM-AVEC",
+     "price": 1190000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Avec",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MURANO_01_AMBIANCE.webp?v=1792503483",
+     "position": 1,
+     "alt": "Lit CÉLESTO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MURANO_02_FACE.webp?v=1792503482",
+     "position": 2,
+     "alt": "Lit CÉLESTO - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MURANO_03_GAUCHE.webp?v=1792503482",
+     "position": 3,
+     "alt": "Lit CÉLESTO - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MURANO_04_DROITE.webp?v=1792503482",
+     "position": 4,
+     "alt": "Lit CÉLESTO - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MURANO_05_PLONGEE.webp?v=1792503483",
+     "position": 5,
+     "alt": "Lit CÉLESTO - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "140 x 200 cm ; 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 728000,
+   "price_max": 1190000,
+   "available": true
+  },
+  {
+   "id": 8800000000145,
+   "handle": "valentino",
+   "title": "VALENTINO",
+   "body_html": "<p>Lit VALENTINO.</p><p>Dimensions disponibles : 90 x 200 cm ; 140 x 200 cm ; 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm.</p><p>Disponible avec ou sans rangement.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "90 x 200 cm",
+      "140 x 200 cm",
+      "160 x 200 cm",
+      "180 x 200 cm",
+      "200 x 200 cm"
+     ]
+    },
+    {
+     "name": "Rangement",
+     "position": 2,
+     "values": [
+      "Sans",
+      "Avec"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000135,
+     "sku": "VALENTINO-90-X-200-CM-SANS",
+     "price": 486000,
+     "compare_at_price": null,
+     "option1": "90 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "90 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000136,
+     "sku": "VALENTINO-90-X-200-CM-AVEC",
+     "price": 636000,
+     "compare_at_price": null,
+     "option1": "90 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "90 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000137,
+     "sku": "VALENTINO-140-X-200-CM-SANS",
+     "price": 685000,
+     "compare_at_price": null,
+     "option1": "140 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000138,
+     "sku": "VALENTINO-140-X-200-CM-AVEC",
+     "price": 906000,
+     "compare_at_price": null,
+     "option1": "140 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000139,
+     "sku": "VALENTINO-160-X-200-CM-SANS",
+     "price": 723000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000140,
+     "sku": "VALENTINO-160-X-200-CM-AVEC",
+     "price": 1014000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000141,
+     "sku": "VALENTINO-180-X-200-CM-SANS",
+     "price": 885500,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000142,
+     "sku": "VALENTINO-180-X-200-CM-AVEC",
+     "price": 1122000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm / Avec",
+     "available": true
+    },
+    {
+     "id": 8800000000143,
+     "sku": "VALENTINO-200-X-200-CM-SANS",
+     "price": 1080000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Sans",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Sans",
+     "available": true
+    },
+    {
+     "id": 8800000000144,
+     "sku": "VALENTINO-200-X-200-CM-AVEC",
+     "price": 1230000,
+     "compare_at_price": null,
+     "option1": "200 x 200 cm",
+     "option2": "Avec",
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 200 cm / Avec",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ROBERTO_01_AMBIANCE.webp?v=1792503501",
+     "position": 1,
+     "alt": "Lit VALENTINO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ROBERTO_02_FACE.webp?v=1792503500",
+     "position": 2,
+     "alt": "Lit VALENTINO - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ROBERTO_03_GAUCHE.webp?v=1792503501",
+     "position": 3,
+     "alt": "Lit VALENTINO - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ROBERTO_04_DROITE.webp?v=1792503500",
+     "position": 4,
+     "alt": "Lit VALENTINO - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ROBERTO_05_PLONGEE.webp?v=1792503500",
+     "position": 5,
+     "alt": "Lit VALENTINO - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "90 x 200 cm ; 140 x 200 cm ; 160 x 200 cm ; 180 x 200 cm ; 200 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 486000,
+   "price_max": 1230000,
+   "available": true
+  },
+  {
+   "id": 8800000000147,
+   "handle": "ducal",
+   "title": "DUCAL",
+   "body_html": "<p>Lit DUCAL.</p><p>Dimensions disponibles : 90 x 200 cm x 2.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "90 x 200 cm x 2"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000146,
+     "sku": "DUCAL-90-X-200-CM-X-2",
+     "price": 1280000,
+     "compare_at_price": null,
+     "option1": "90 x 200 cm x 2",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "90 x 200 cm x 2",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MOHA_01_AMBIANCE.webp?v=1792503475",
+     "position": 1,
+     "alt": "Lit DUCAL - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MOHA_02_FACE.webp?v=1792503474",
+     "position": 2,
+     "alt": "Lit DUCAL - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MOHA_03_GAUCHE.webp?v=1792503474",
+     "position": 3,
+     "alt": "Lit DUCAL - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MOHA_04_DROITE.webp?v=1792503474",
+     "position": 4,
+     "alt": "Lit DUCAL - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MOHA_05_PLONGEE.webp?v=1792503474",
+     "position": 5,
+     "alt": "Lit DUCAL - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "90 x 200 cm x 2",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1280000,
+   "price_max": 1280000,
+   "available": true
+  },
+  {
+   "id": 8800000000150,
+   "handle": "prestigia",
+   "title": "PRESTIGIA",
+   "body_html": "<p>Lit PRESTIGIA.</p><p>Dimensions disponibles : 180 x 200 cm ; 160 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "180 x 200 cm",
+      "160 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000148,
+     "sku": "PRESTIGIA-180-X-200-CM",
+     "price": 1585000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000149,
+     "sku": "PRESTIGIA-160-X-200-CM",
+     "price": 1450000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HARMONY_01_AMBIANCE.webp?v=1792503458",
+     "position": 1,
+     "alt": "Lit PRESTIGIA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HARMONY_02_FACE.webp?v=1792503457",
+     "position": 2,
+     "alt": "Lit PRESTIGIA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HARMONY_03_GAUCHE.webp?v=1792503457",
+     "position": 3,
+     "alt": "Lit PRESTIGIA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HARMONY_04_DROITE.webp?v=1792503457",
+     "position": 4,
+     "alt": "Lit PRESTIGIA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/HARMONY_05_PLONGEE.webp?v=1792503458",
+     "position": 5,
+     "alt": "Lit PRESTIGIA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "180 x 200 cm ; 160 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1450000,
+   "price_max": 1585000,
+   "available": true
+  },
+  {
+   "id": 8800000000153,
+   "handle": "ondea",
+   "title": "ONDÉA",
+   "body_html": "<p>Lit ONDÉA.</p><p>Dimensions disponibles : 160 x 200 cm ; 180 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "160 x 200 cm",
+      "180 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000151,
+     "sku": "ONDEA-160-X-200-CM",
+     "price": 765000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000152,
+     "sku": "ONDEA-180-X-200-CM",
+     "price": 987000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/WAYVE_01_AMBIANCE.webp?v=1792503533",
+     "position": 1,
+     "alt": "Lit ONDÉA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/WAYVE_02_FACE.webp?v=1792503533",
+     "position": 2,
+     "alt": "Lit ONDÉA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/WAYVE_03_GAUCHE.webp?v=1792503533",
+     "position": 3,
+     "alt": "Lit ONDÉA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/WAYVE_04_DROITE.webp?v=1792503533",
+     "position": 4,
+     "alt": "Lit ONDÉA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/WAYVE_05_PLONGEE.webp?v=1792503533",
+     "position": 5,
+     "alt": "Lit ONDÉA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "160 x 200 cm ; 180 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 765000,
+   "price_max": 987000,
+   "available": true
+  },
+  {
+   "id": 8800000000155,
+   "handle": "adriano-2",
+   "title": "ADRIANO",
+   "body_html": "<p>Lit ADRIANO.</p><p>Dimensions disponibles : 180 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "180 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000154,
+     "sku": "ADRIANO-2-180-X-200-CM",
+     "price": 785000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MATEO_01_AMBIANCE.webp?v=1792503469",
+     "position": 1,
+     "alt": "Lit ADRIANO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MATEO_02_FACE.webp?v=1792503469",
+     "position": 2,
+     "alt": "Lit ADRIANO - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MATEO_03_GAUCHE.webp?v=1792503468",
+     "position": 3,
+     "alt": "Lit ADRIANO - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MATEO_04_DROITE.webp?v=1792503469",
+     "position": 4,
+     "alt": "Lit ADRIANO - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/MATEO_05_PLONGEE.webp?v=1792503469",
+     "position": 5,
+     "alt": "Lit ADRIANO - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "180 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 785000,
+   "price_max": 785000,
+   "available": true
+  },
+  {
+   "id": 8800000000158,
+   "handle": "adriano",
+   "title": "ADRIANO",
+   "body_html": "<p>Lit ADRIANO.</p><p>Dimensions disponibles : 160 x 200 cm ; 180 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "160 x 200 cm",
+      "180 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000156,
+     "sku": "ADRIANO-160-X-200-CM",
+     "price": 995000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000157,
+     "sku": "ADRIANO-180-X-200-CM",
+     "price": 1190000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NAYA_01_AMBIANCE.webp?v=1792503489",
+     "position": 1,
+     "alt": "Lit ADRIANO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NAYA_02_FACE.webp?v=1792503489",
+     "position": 2,
+     "alt": "Lit ADRIANO - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NAYA_03_GAUCHE.webp?v=1792503489",
+     "position": 3,
+     "alt": "Lit ADRIANO - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NAYA_04_DROITE.webp?v=1792503489",
+     "position": 4,
+     "alt": "Lit ADRIANO - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/NAYA_05_PLONGEE.webp?v=1792503489",
+     "position": 5,
+     "alt": "Lit ADRIANO - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "160 x 200 cm ; 180 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 995000,
+   "price_max": 1190000,
+   "available": true
+  },
+  {
+   "id": 8800000000161,
+   "handle": "almera",
+   "title": "ALMÉRA",
+   "body_html": "<p>Lit ALMÉRA.</p><p>Dimensions disponibles : 160 x 200 cm ; 180 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "160 x 200 cm",
+      "180 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000159,
+     "sku": "ALMERA-160-X-200-CM",
+     "price": 1650000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000160,
+     "sku": "ALMERA-180-X-200-CM",
+     "price": 1850000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SERENA_01_AMBIANCE.webp?v=1792503507",
+     "position": 1,
+     "alt": "Lit ALMÉRA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SERENA_02_FACE.webp?v=1792503507",
+     "position": 2,
+     "alt": "Lit ALMÉRA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SERENA_03_GAUCHE.webp?v=1792503507",
+     "position": 3,
+     "alt": "Lit ALMÉRA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SERENA_04_DROITE.webp?v=1792503507",
+     "position": 4,
+     "alt": "Lit ALMÉRA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/SERENA_05_PLONGEE.webp?v=1792503507",
+     "position": 5,
+     "alt": "Lit ALMÉRA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "160 x 200 cm ; 180 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1650000,
+   "price_max": 1850000,
+   "available": true
+  },
+  {
+   "id": 8800000000163,
+   "handle": "maestia",
+   "title": "MAÉSTIA",
+   "body_html": "<p>Lit MAÉSTIA.</p><p>Dimensions disponibles : 180 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "180 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000162,
+     "sku": "MAESTIA-180-X-200-CM",
+     "price": 1180000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/PERLA_01_AMBIANCE.webp?v=1792503495",
+     "position": 1,
+     "alt": "Lit MAÉSTIA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/PERLA_02_FACE.webp?v=1792503495",
+     "position": 2,
+     "alt": "Lit MAÉSTIA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/PERLA_03_GAUCHE.webp?v=1792503494",
+     "position": 3,
+     "alt": "Lit MAÉSTIA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/PERLA_04_DROITE.webp?v=1792503494",
+     "position": 4,
+     "alt": "Lit MAÉSTIA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/PERLA_05_PLONGEE.webp?v=1792503494",
+     "position": 5,
+     "alt": "Lit MAÉSTIA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "180 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1180000,
+   "price_max": 1180000,
+   "available": true
+  },
+  {
+   "id": 8800000000166,
+   "handle": "eloria",
+   "title": "ÉLORIA",
+   "body_html": "<p>Lit ÉLORIA.</p><p>Dimensions disponibles : 180 x 200 cm ; 160 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "180 x 200 cm",
+      "160 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000164,
+     "sku": "ELORIA-180-X-200-CM",
+     "price": 858000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000165,
+     "sku": "ELORIA-160-X-200-CM",
+     "price": 758000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/AMENDA_01_AMBIANCE.webp?v=1792503425",
+     "position": 1,
+     "alt": "Lit ÉLORIA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/AMENDA_02_FACE.webp?v=1792503426",
+     "position": 2,
+     "alt": "Lit ÉLORIA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/AMENDA_03_GAUCHE.webp?v=1792503425",
+     "position": 3,
+     "alt": "Lit ÉLORIA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/AMENDA_04_DROITE.webp?v=1792503425",
+     "position": 4,
+     "alt": "Lit ÉLORIA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/AMENDA_05_PLONGEE.webp?v=1792503425",
+     "position": 5,
+     "alt": "Lit ÉLORIA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "180 x 200 cm ; 160 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 758000,
+   "price_max": 858000,
+   "available": true
+  },
+  {
+   "id": 8800000000169,
+   "handle": "nevio",
+   "title": "NÉVIO",
+   "body_html": "<p>Lit NÉVIO.</p><p>Dimensions disponibles : 180 x 200 cm ; 160 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "180 x 200 cm",
+      "160 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000167,
+     "sku": "NEVIO-180-X-200-CM",
+     "price": 785000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000168,
+     "sku": "NEVIO-160-X-200-CM",
+     "price": 735000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ARENA_01_AMBIANCE.webp?v=1792503432",
+     "position": 1,
+     "alt": "Lit NÉVIO - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ARENA_02_FACE.webp?v=1792503432",
+     "position": 2,
+     "alt": "Lit NÉVIO - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ARENA_03_GAUCHE.webp?v=1792503432",
+     "position": 3,
+     "alt": "Lit NÉVIO - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ARENA_04_DROITE.webp?v=1792503432",
+     "position": 4,
+     "alt": "Lit NÉVIO - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/ARENA_05_PLONGEE.webp?v=1792503432",
+     "position": 5,
+     "alt": "Lit NÉVIO - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "180 x 200 cm ; 160 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 735000,
+   "price_max": 785000,
+   "available": true
+  },
+  {
+   "id": 8800000000172,
+   "handle": "lorena",
+   "title": "LORÉNA",
+   "body_html": "<p>Lit LORÉNA.</p><p>Dimensions disponibles : 180 x 200 cm ; 160 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "180 x 200 cm",
+      "160 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000170,
+     "sku": "LORENA-180-X-200-CM",
+     "price": 795000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000171,
+     "sku": "LORENA-160-X-200-CM",
+     "price": 695000,
+     "compare_at_price": null,
+     "option1": "160 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "160 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELORA_01_AMBIANCE.webp?v=1792503527",
+     "position": 1,
+     "alt": "Lit LORÉNA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELORA_02_FACE.webp?v=1792503527",
+     "position": 2,
+     "alt": "Lit LORÉNA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELORA_03_GAUCHE.webp?v=1792503527",
+     "position": 3,
+     "alt": "Lit LORÉNA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELORA_04_DROITE.webp?v=1792503527",
+     "position": 4,
+     "alt": "Lit LORÉNA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/VELORA_05_PLONGEE.webp?v=1792503527",
+     "position": 5,
+     "alt": "Lit LORÉNA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "180 x 200 cm ; 160 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 695000,
+   "price_max": 795000,
+   "available": true
+  },
+  {
+   "id": 8800000000174,
+   "handle": "imperia",
+   "title": "IMPÉRIA",
+   "body_html": "<p>Lit IMPÉRIA.</p><p>Dimensions disponibles : 180 x 200 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Lit",
+   "tags": [
+    "lits adultes"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "180 x 200 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000173,
+     "sku": "IMPERIA-180-X-200-CM",
+     "price": 1626000,
+     "compare_at_price": null,
+     "option1": "180 x 200 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "180 x 200 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BIANCA_01_AMBIANCE.webp?v=1792503440",
+     "position": 1,
+     "alt": "Lit IMPÉRIA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BIANCA_02_FACE.webp?v=1792503440",
+     "position": 2,
+     "alt": "Lit IMPÉRIA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BIANCA_03_GAUCHE.webp?v=1792503440",
+     "position": 3,
+     "alt": "Lit IMPÉRIA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BIANCA_04_DROITE.webp?v=1792503440",
+     "position": 4,
+     "alt": "Lit IMPÉRIA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/BIANCA_05_PLONGEE.webp?v=1792503440",
+     "position": 5,
+     "alt": "Lit IMPÉRIA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "180 x 200 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1626000,
+   "price_max": 1626000,
+   "available": true
+  },
+  {
+   "id": 8800000000176,
+   "handle": "elvia",
+   "title": "ELVIA",
+   "body_html": "<p>Chaise ELVIA pour la salle à manger.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Chaise",
+   "tags": [
+    "chaise",
+    "Salle à manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000175,
+     "sku": "ELVIA",
+     "price": 159000,
+     "compare_at_price": null,
+     "option1": "Default Title",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "Default Title",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elvia-01-ambiance.webp?v=1792505029",
+     "position": 1,
+     "alt": "Chaise ELVIA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elvia-02-face.webp?v=1792505037",
+     "position": 2,
+     "alt": "Chaise ELVIA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elvia-03-gauche.webp?v=1792505025",
+     "position": 3,
+     "alt": "Chaise ELVIA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elvia-04-droite.webp?v=1792505037",
+     "position": 4,
+     "alt": "Chaise ELVIA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elvia-05-dos.webp?v=1792505047",
+     "position": 5,
+     "alt": "Chaise ELVIA - vue de dos",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": null,
+   "seo_title": "",
+   "seo_description": "",
+   "price": 159000,
+   "price_max": 159000,
+   "available": true
+  },
+  {
+   "id": 8800000000178,
+   "handle": "selena",
+   "title": "SÉLÉNA",
+   "body_html": "<p>Chaise SÉLÉNA pour la salle à manger.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Chaise",
+   "tags": [
+    "chaise",
+    "Salle à manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000177,
+     "sku": "SELENA",
+     "price": 195500,
+     "compare_at_price": null,
+     "option1": "Default Title",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "Default Title",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/selena-01-ambiance.webp?v=1792505006",
+     "position": 1,
+     "alt": "Chaise SÉLÉNA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/selena-02-face.webp?v=1792505017",
+     "position": 2,
+     "alt": "Chaise SÉLÉNA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/selena-03-gauche.webp?v=1792504994",
+     "position": 3,
+     "alt": "Chaise SÉLÉNA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/selena-04-droite.webp?v=1792505005",
+     "position": 4,
+     "alt": "Chaise SÉLÉNA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/selena-05-dos.webp?v=1792505017",
+     "position": 5,
+     "alt": "Chaise SÉLÉNA - vue de dos",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": null,
+   "seo_title": "",
+   "seo_description": "",
+   "price": 195500,
+   "price_max": 195500,
+   "available": true
+  },
+  {
+   "id": 8800000000180,
+   "handle": "alba",
+   "title": "ALBA",
+   "body_html": "<p>Chaise ALBA pour la salle à manger.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Chaise",
+   "tags": [
+    "chaise",
+    "Salle à manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000179,
+     "sku": "ALBA",
+     "price": 198000,
+     "compare_at_price": null,
+     "option1": "Default Title",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "Default Title",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/alba-01-ambiance.webp?v=1792504974",
+     "position": 1,
+     "alt": "Chaise ALBA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/alba-02-face.webp?v=1792504963",
+     "position": 2,
+     "alt": "Chaise ALBA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/alba-03-gauche.webp?v=1792504973",
+     "position": 3,
+     "alt": "Chaise ALBA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/alba-04-droite.webp?v=1792504985",
+     "position": 4,
+     "alt": "Chaise ALBA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/alba-05-dos.webp?v=1792504996",
+     "position": 5,
+     "alt": "Chaise ALBA - vue de dos",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": null,
+   "seo_title": "",
+   "seo_description": "",
+   "price": 198000,
+   "price_max": 198000,
+   "available": true
+  },
+  {
+   "id": 8800000000182,
+   "handle": "olivia",
+   "title": "OLIVIA",
+   "body_html": "<p>Chaise OLIVIA pour la salle à manger.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Chaise",
+   "tags": [
+    "chaise",
+    "Salle à manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Title",
+     "position": 1,
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000181,
+     "sku": "OLIVIA",
+     "price": 138000,
+     "compare_at_price": null,
+     "option1": "Default Title",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "Default Title",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/olivia-01-ambiance.webp?v=1792504944",
+     "position": 1,
+     "alt": "Chaise OLIVIA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/olivia-02-face.webp?v=1792504955",
+     "position": 2,
+     "alt": "Chaise OLIVIA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/olivia-03-gauche.webp?v=1792504943",
+     "position": 3,
+     "alt": "Chaise OLIVIA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/olivia-04-droite.webp?v=1792504954",
+     "position": 4,
+     "alt": "Chaise OLIVIA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/olivia-05-dos.webp?v=1792504965",
+     "position": 5,
+     "alt": "Chaise OLIVIA - vue de dos",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": null,
+   "seo_title": "",
+   "seo_description": "",
+   "price": 138000,
+   "price_max": 138000,
+   "available": true
+  },
+  {
+   "id": 8800000000186,
+   "handle": "verra",
+   "title": "VERRA",
+   "body_html": "<p>Table à manger VERRA.</p><p>Dimensions disponibles : 140 cm ; 120 cm ; 130 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Table à manger",
+   "tags": [
+    "Salle à manger",
+    "table-a-manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "140 cm",
+      "120 cm",
+      "130 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000183,
+     "sku": "VERRA-140-CM",
+     "price": 1059000,
+     "compare_at_price": null,
+     "option1": "140 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "140 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000184,
+     "sku": "VERRA-120-CM",
+     "price": 778000,
+     "compare_at_price": null,
+     "option1": "120 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "120 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000185,
+     "sku": "VERRA-130-CM",
+     "price": 912000,
+     "compare_at_price": null,
+     "option1": "130 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "130 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/verra-01-ambiance.webp?v=1792504912",
+     "position": 1,
+     "alt": "Table à manger VERRA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/verra-02-face.webp?v=1792504924",
+     "position": 2,
+     "alt": "Table à manger VERRA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/verra-03-gauche.webp?v=1792504935",
+     "position": 3,
+     "alt": "Table à manger VERRA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/verra-04-droite.webp?v=1792504925",
+     "position": 4,
+     "alt": "Table à manger VERRA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/verra-05-plongee.webp?v=1792504935",
+     "position": 5,
+     "alt": "Table à manger VERRA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "140 cm ; 120 cm ; 130 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 778000,
+   "price_max": 1059000,
+   "available": true
+  },
+  {
+   "id": 8800000000190,
+   "handle": "venora",
+   "title": "VÉNORA",
+   "body_html": "<p>Table à manger VÉNORA.</p><p>Dimensions disponibles : 220 x 110 cm ; 200 x 100 cm ; 240 x 120 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Table à manger",
+   "tags": [
+    "Salle à manger",
+    "table-a-manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "220 x 110 cm",
+      "200 x 100 cm",
+      "240 x 120 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000187,
+     "sku": "VENORA-220-X-110-CM",
+     "price": 1790000,
+     "compare_at_price": null,
+     "option1": "220 x 110 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "220 x 110 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000188,
+     "sku": "VENORA-200-X-100-CM",
+     "price": 1790000,
+     "compare_at_price": null,
+     "option1": "200 x 100 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 100 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000189,
+     "sku": "VENORA-240-X-120-CM",
+     "price": 2132000,
+     "compare_at_price": null,
+     "option1": "240 x 120 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "240 x 120 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/venora-01-ambiance.webp?v=1792504905",
+     "position": 1,
+     "alt": "Table à manger VÉNORA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/venora-02-face.webp?v=1792504913",
+     "position": 2,
+     "alt": "Table à manger VÉNORA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/venora-03-gauche.webp?v=1792504896",
+     "position": 3,
+     "alt": "Table à manger VÉNORA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/venora-04-droite.webp?v=1792504905",
+     "position": 4,
+     "alt": "Table à manger VÉNORA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/venora-05-plongee.webp?v=1792504914",
+     "position": 5,
+     "alt": "Table à manger VÉNORA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "220 x 110 cm ; 200 x 100 cm ; 240 x 120 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1790000,
+   "price_max": 2132000,
+   "available": true
+  },
+  {
+   "id": 8800000000193,
+   "handle": "majesta",
+   "title": "MAJESTA",
+   "body_html": "<p>Table à manger MAJESTA.</p><p>Dimensions disponibles : 200 x 110 cm ; 220 x 110 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Table à manger",
+   "tags": [
+    "Salle à manger",
+    "table-a-manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "200 x 110 cm",
+      "220 x 110 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000191,
+     "sku": "MAJESTA-200-X-110-CM",
+     "price": 2110000,
+     "compare_at_price": null,
+     "option1": "200 x 110 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "200 x 110 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000192,
+     "sku": "MAJESTA-220-X-110-CM",
+     "price": 2180000,
+     "compare_at_price": null,
+     "option1": "220 x 110 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "220 x 110 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/majesta-01-ambiance.webp?v=1792504867",
+     "position": 1,
+     "alt": "Table à manger MAJESTA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/majesta-02-face.webp?v=1792504876",
+     "position": 2,
+     "alt": "Table à manger MAJESTA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/majesta-03-gauche.webp?v=1792504886",
+     "position": 3,
+     "alt": "Table à manger MAJESTA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/majesta-04-droite.webp?v=1792504879",
+     "position": 4,
+     "alt": "Table à manger MAJESTA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/majesta-05-plongee.webp?v=1792504894",
+     "position": 5,
+     "alt": "Table à manger MAJESTA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "200 x 110 cm ; 220 x 110 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 2110000,
+   "price_max": 2180000,
+   "available": true
+  },
+  {
+   "id": 8800000000196,
+   "handle": "elysee",
+   "title": "ÉLYSÉE",
+   "body_html": "<p>Table à manger ÉLYSÉE.</p><p>Dimensions disponibles : Ø 130 cm ; Ø 140 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Table à manger",
+   "tags": [
+    "Salle à manger",
+    "table-a-manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "Ø 130 cm",
+      "Ø 140 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000194,
+     "sku": "ELYSEE-130-CM",
+     "price": 980000,
+     "compare_at_price": null,
+     "option1": "Ø 130 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "Ø 130 cm",
+     "available": true
+    },
+    {
+     "id": 8800000000195,
+     "sku": "ELYSEE-140-CM",
+     "price": 1150000,
+     "compare_at_price": null,
+     "option1": "Ø 140 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "Ø 140 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elysee-01-ambiance.webp?v=1792504839",
+     "position": 1,
+     "alt": "Table à manger ÉLYSÉE - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elysee-02-face.webp?v=1792504849",
+     "position": 2,
+     "alt": "Table à manger ÉLYSÉE - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elysee-03-gauche.webp?v=1792504861",
+     "position": 3,
+     "alt": "Table à manger ÉLYSÉE - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elysee-04-droite.webp?v=1792504871",
+     "position": 4,
+     "alt": "Table à manger ÉLYSÉE - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/elysee-05-plongee.webp?v=1792504858",
+     "position": 5,
+     "alt": "Table à manger ÉLYSÉE - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "Ø 130 cm ; Ø 140 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 980000,
+   "price_max": 1150000,
+   "available": true
+  },
+  {
+   "id": 8800000000198,
+   "handle": "aurelia",
+   "title": "AURÉLIA",
+   "body_html": "<p>Table à manger AURÉLIA.</p><p>Dimensions disponibles : 220 x 100 cm.</p>",
+   "vendor": "Signature Meubles",
+   "product_type": "Table à manger",
+   "tags": [
+    "Salle à manger",
+    "table-a-manger"
+   ],
+   "published": false,
+   "status": "active",
+   "options": [
+    {
+     "name": "Dimensions",
+     "position": 1,
+     "values": [
+      "220 x 100 cm"
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "id": 8800000000197,
+     "sku": "AURELIA-220-X-100-CM",
+     "price": 1681000,
+     "compare_at_price": null,
+     "option1": "220 x 100 cm",
+     "option2": null,
+     "option3": null,
+     "inventory_management": null,
+     "inventory_policy": "deny",
+     "inventory_quantity": 0,
+     "grams": 0,
+     "image_src": null,
+     "title": "220 x 100 cm",
+     "available": true
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/aurelia-01-ambiance.webp?v=1792504820",
+     "position": 1,
+     "alt": "Table à manger AURÉLIA - ambiance",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/aurelia-02-face.webp?v=1792504840",
+     "position": 2,
+     "alt": "Table à manger AURÉLIA - vue de face",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/aurelia-03-gauche.webp?v=1792504830",
+     "position": 3,
+     "alt": "Table à manger AURÉLIA - vue de gauche",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/aurelia-04-droite.webp?v=1792504848",
+     "position": 4,
+     "alt": "Table à manger AURÉLIA - vue de droite",
+     "width": 1254,
+     "height": 1254
+    },
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0770/9242/1718/files/aurelia-05-plongee.webp?v=1792504830",
+     "position": 5,
+     "alt": "Table à manger AURÉLIA - vue en plongée",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "dimensions": "220 x 100 cm",
+   "seo_title": "",
+   "seo_description": "",
+   "price": 1681000,
+   "price_max": 1681000,
+   "available": true
+  }
+ ],
+ "collections": [
+  {
+   "title": "Salons & Canapés",
+   "handle": "salons-et-canapes",
+   "disjunctive": true,
+   "rules": [
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Salon en L"
+    },
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Salon en U"
+    }
+   ],
+   "parent": null,
+   "image": "SKY_GM_U_01_AMBIANCE.webp",
+   "description": "Salons d’angle et salons en U pour le séjour, présentés avec leurs dimensions et leurs prix TTC.",
+   "product_handles": [
+    "freeman-u",
+    "milano-u",
+    "scott-pm-l",
+    "milano-l",
+    "olika-pm-l",
+    "adamo-l",
+    "freedom-l",
+    "cloud-u",
+    "olika-gm-l",
+    "freeman-l",
+    "sky-gm-l",
+    "cloud-pm-l",
+    "sky-pm-l",
+    "sky-x-l",
+    "sky-scraper-u",
+    "sky-is-the-limit-u",
+    "sky-gm-u",
+    "cloud-gm-l",
+    "olika-pm-u",
+    "sofie-pm-l",
+    "brooklyn-mm-l",
+    "cooper-l",
+    "milo-l",
+    "elya-l",
+    "nolita-gm-l",
+    "kris-l",
+    "nolita-pm-l",
+    "cosmo-l",
+    "opale-l",
+    "bellagio-l",
+    "bering-l",
+    "nolita-pm-u",
+    "loft-l",
+    "orrvelo-pm-l",
+    "cairo-pm-l",
+    "bering-u",
+    "hugo-l",
+    "cubica-l",
+    "nolita-gm-u",
+    "bellagio-u",
+    "velart-l",
+    "brooklyn-pm-meridienne-l",
+    "brooklyn-gm-meridienne-l",
+    "elite-l",
+    "elite-u",
+    "kris-u",
+    "cairo-gm-l",
+    "loren-l"
+   ]
+  },
+  {
+   "title": "Salons d'angle en L",
+   "handle": "salons-d-angle-en-l",
+   "rules": [
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Salon en L"
+    }
+   ],
+   "parent": "salons-et-canapes",
+   "image": "FREEMAN_L_01_AMBIANCE.webp",
+   "description": "Des salons d’angle qui s’installent contre deux murs et dégagent le centre de la pièce. Comparez les dimensions de chaque modèle avant de choisir.",
+   "product_handles": [
+    "scott-pm-l",
+    "milano-l",
+    "olika-pm-l",
+    "adamo-l",
+    "freedom-l",
+    "olika-gm-l",
+    "freeman-l",
+    "sky-gm-l",
+    "cloud-pm-l",
+    "sky-pm-l",
+    "sky-x-l",
+    "cloud-gm-l",
+    "sofie-pm-l",
+    "brooklyn-mm-l",
+    "cooper-l",
+    "milo-l",
+    "elya-l",
+    "nolita-gm-l",
+    "kris-l",
+    "nolita-pm-l",
+    "cosmo-l",
+    "opale-l",
+    "bellagio-l",
+    "bering-l",
+    "loft-l",
+    "orrvelo-pm-l",
+    "cairo-pm-l",
+    "hugo-l",
+    "cubica-l",
+    "velart-l",
+    "brooklyn-pm-meridienne-l",
+    "brooklyn-gm-meridienne-l",
+    "elite-l",
+    "cairo-gm-l",
+    "loren-l"
+   ]
+  },
+  {
+   "title": "Salons en U",
+   "handle": "salons-en-u",
+   "rules": [
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Salon en U"
+    }
+   ],
+   "parent": "salons-et-canapes",
+   "image": "BELLAGIO_U_01_AMBIANCE.webp",
+   "description": "Des salons en U pour réunir toute la famille autour de la table basse. Vérifiez les trois côtés avant de choisir.",
+   "product_handles": [
+    "freeman-u",
+    "milano-u",
+    "cloud-u",
+    "sky-scraper-u",
+    "sky-is-the-limit-u",
+    "sky-gm-u",
+    "olika-pm-u",
+    "nolita-pm-u",
+    "bering-u",
+    "nolita-gm-u",
+    "bellagio-u",
+    "elite-u",
+    "kris-u"
+   ]
+  },
+  {
+   "title": "Salons marocains",
+   "handle": "salons-marocains",
+   "rules": [],
+   "manual": true,
+   "parent": "salons-et-canapes",
+   "product_handles": []
+  },
+  {
+   "title": "Canapés",
+   "handle": "canapes",
+   "rules": [],
+   "manual": true,
+   "parent": "salons-et-canapes",
+   "product_handles": []
+  },
+  {
+   "title": "Fauteuils",
+   "handle": "fauteuils",
+   "rules": [],
+   "manual": true,
+   "parent": "salons-et-canapes",
+   "product_handles": []
+  },
+  {
+   "title": "Poufs",
+   "handle": "poufs",
+   "rules": [],
+   "manual": true,
+   "parent": "salons-et-canapes",
+   "product_handles": []
+  },
+  {
+   "title": "Séjour & Salle à manger",
+   "handle": "sejour-et-salle-a-manger",
+   "disjunctive": true,
+   "rules": [
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Table à manger"
+    },
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Chaise"
+    }
+   ],
+   "parent": null,
+   "image": "venora-01-ambiance.webp",
+   "description": "Tables à manger et chaises pour composer votre salle à manger.",
+   "product_handles": [
+    "elvia",
+    "selena",
+    "alba",
+    "olivia",
+    "verra",
+    "venora",
+    "majesta",
+    "elysee",
+    "aurelia"
+   ]
+  },
+  {
+   "title": "Tables basses",
+   "handle": "tables-basses",
+   "rules": [],
+   "manual": true,
+   "parent": "sejour-et-salle-a-manger",
+   "product_handles": []
+  },
+  {
+   "title": "Tables à manger",
+   "handle": "tables-a-manger",
+   "rules": [
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Table à manger"
+    }
+   ],
+   "parent": "sejour-et-salle-a-manger",
+   "image": "elysee-01-ambiance.webp",
+   "description": "Tables rondes et rectangulaires, proposées en plusieurs dimensions selon les modèles.",
+   "product_handles": [
+    "verra",
+    "venora",
+    "majesta",
+    "elysee",
+    "aurelia"
+   ]
+  },
+  {
+   "title": "Chaises",
+   "handle": "chaises",
+   "rules": [
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Chaise"
+    }
+   ],
+   "parent": "sejour-et-salle-a-manger",
+   "image": "alba-01-ambiance.webp",
+   "description": "Chaises de salle à manger à associer à votre table.",
+   "product_handles": [
+    "elvia",
+    "selena",
+    "alba",
+    "olivia"
+   ]
+  },
+  {
+   "title": "Buffets",
+   "handle": "buffets",
+   "rules": [],
+   "manual": true,
+   "parent": "sejour-et-salle-a-manger",
+   "product_handles": []
+  },
+  {
+   "title": "Consoles",
+   "handle": "consoles",
+   "rules": [],
+   "manual": true,
+   "parent": "sejour-et-salle-a-manger",
+   "product_handles": []
+  },
+  {
+   "title": "Meubles TV",
+   "handle": "meubles-tv",
+   "rules": [],
+   "manual": true,
+   "parent": "sejour-et-salle-a-manger",
+   "product_handles": []
+  },
+  {
+   "title": "Étagères",
+   "handle": "etageres",
+   "rules": [],
+   "manual": true,
+   "parent": "sejour-et-salle-a-manger",
+   "product_handles": []
+  },
+  {
+   "title": "Chambre adulte",
+   "handle": "chambre-adulte",
+   "rules": [
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Lit"
+    }
+   ],
+   "parent": null,
+   "image": "MURANO_01_AMBIANCE.webp",
+   "description": "Des lits du 90 × 200 au 200 × 200 cm, certains disponibles avec ou sans rangement.",
+   "product_handles": [
+    "karlo",
+    "soren",
+    "orion",
+    "celesto",
+    "valentino",
+    "ducal",
+    "prestigia",
+    "ondea",
+    "adriano-2",
+    "adriano",
+    "almera",
+    "maestia",
+    "eloria",
+    "nevio",
+    "lorena",
+    "imperia"
+   ]
+  },
+  {
+   "title": "Lits adultes",
+   "handle": "lits-adultes",
+   "rules": [
+    {
+     "column": "type",
+     "relation": "equals",
+     "condition": "Lit"
+    }
+   ],
+   "parent": "chambre-adulte",
+   "image": "ELVIS_01_AMBIANCE.webp",
+   "description": "Des lits du 90 × 200 au 200 × 200 cm, certains disponibles avec ou sans rangement. Chaque fiche détaille les tailles et leurs prix.",
+   "product_handles": [
+    "karlo",
+    "soren",
+    "orion",
+    "celesto",
+    "valentino",
+    "ducal",
+    "prestigia",
+    "ondea",
+    "adriano-2",
+    "adriano",
+    "almera",
+    "maestia",
+    "eloria",
+    "nevio",
+    "lorena",
+    "imperia"
+   ]
+  },
+  {
+   "title": "Matelas",
+   "handle": "matelas",
+   "rules": [],
+   "manual": true,
+   "parent": "chambre-adulte",
+   "product_handles": []
+  },
+  {
+   "title": "Chambre enfant",
+   "handle": "chambre-enfant",
+   "rules": [],
+   "manual": true,
+   "parent": null,
+   "product_handles": []
+  },
+  {
+   "title": "Lits une place",
+   "handle": "lits-une-place",
+   "rules": [],
+   "manual": true,
+   "parent": "chambre-enfant",
+   "product_handles": []
+  },
+  {
+   "title": "Chevets",
+   "handle": "chevets",
+   "rules": [],
+   "manual": true,
+   "parent": "chambre-enfant",
+   "product_handles": []
+  },
+  {
+   "title": "Bureaux enfants",
+   "handle": "bureaux-enfants",
+   "rules": [],
+   "manual": true,
+   "parent": "chambre-enfant",
+   "product_handles": []
+  },
+  {
+   "title": "Commodes",
+   "handle": "commodes",
+   "rules": [],
+   "manual": true,
+   "parent": "chambre-enfant",
+   "product_handles": []
+  },
+  {
+   "title": "Mobilier de bureau",
+   "handle": "mobilier-de-bureau",
+   "rules": [],
+   "manual": true,
+   "parent": null,
+   "product_handles": []
+  },
+  {
+   "title": "Bureaux",
+   "handle": "bureaux",
+   "rules": [],
+   "manual": true,
+   "parent": "mobilier-de-bureau",
+   "product_handles": []
+  },
+  {
+   "title": "Fauteuils de direction",
+   "handle": "fauteuils-de-direction",
+   "rules": [],
+   "manual": true,
+   "parent": "mobilier-de-bureau",
+   "product_handles": []
+  },
+  {
+   "title": "Chaises visiteurs",
+   "handle": "chaises-visiteurs",
+   "rules": [],
+   "manual": true,
+   "parent": "mobilier-de-bureau",
+   "product_handles": []
+  },
+  {
+   "title": "Mobilier d'extérieur",
+   "handle": "mobilier-d-exterieur",
+   "rules": [],
+   "manual": true,
+   "parent": null,
+   "product_handles": []
+  },
+  {
+   "title": "Salons de jardin",
+   "handle": "salons-de-jardin",
+   "rules": [],
+   "manual": true,
+   "parent": "mobilier-d-exterieur",
+   "product_handles": []
+  },
+  {
+   "title": "Tables d'extérieur",
+   "handle": "tables-d-exterieur",
+   "rules": [],
+   "manual": true,
+   "parent": "mobilier-d-exterieur",
+   "product_handles": []
+  },
+  {
+   "title": "Chaises d'extérieur",
+   "handle": "chaises-d-exterieur",
+   "rules": [],
+   "manual": true,
+   "parent": "mobilier-d-exterieur",
+   "product_handles": []
+  },
+  {
+   "title": "Parasols",
+   "handle": "parasols",
+   "rules": [],
+   "manual": true,
+   "parent": "mobilier-d-exterieur",
+   "product_handles": []
+  },
+  {
+   "title": "Transats",
+   "handle": "transats",
+   "rules": [],
+   "manual": true,
+   "parent": "mobilier-d-exterieur",
+   "product_handles": []
+  },
+  {
+   "title": "La sélection",
+   "handle": "la-selection",
+   "parent": null,
+   "manual": true,
+   "rules": [],
+   "handles": [
+    "velart-l",
+    "sky-gm-u",
+    "loft-l",
+    "bellagio-u",
+    "celesto",
+    "venora",
+    "alba",
+    "ondea"
+   ],
+   "image": "VELART_L_01_AMBIANCE.webp",
+   "description": "Une sélection de modèles choisis par Signature Meubles.",
+   "product_handles": [
+    "velart-l",
+    "sky-gm-u",
+    "loft-l",
+    "bellagio-u",
+    "celesto",
+    "venora",
+    "alba",
+    "ondea"
+   ]
+  }
+ ]
+}

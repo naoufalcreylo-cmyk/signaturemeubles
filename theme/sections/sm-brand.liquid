@@ -1,0 +1,47 @@
+{%- comment -%}
+  Signature Meubles — brand introduction: monogram, tagline and a short, verifiable text.
+{%- endcomment -%}
+{{ 'section-sm-editorial.css' | asset_url | stylesheet_tag }}
+{%- assign s = section.settings -%}
+<div class="sm-brand color-{{ s.color_scheme }} section--padding" style="--section-padding-top: {{ s.padding_top }}px; --section-padding-bottom: {{ s.padding_bottom }}px;">
+  <div class="page-width sm-brand__inner{% if s.image != blank %} sm-brand__inner--image{% endif %}">
+    <div class="sm-brand__mark">
+      {%- render 'sm-logo', variant: 'monogram', tone: s.logo_tone, class: 'sm-brand__monogram', alt: '' -%}
+      {%- if s.tagline != blank -%}<p class="sm-brand__tagline">{{ s.tagline }}</p>{%- endif -%}
+    </div>
+    <div class="sm-brand__content">
+      {%- if s.eyebrow != blank -%}<p class="sm-eyebrow">{{ s.eyebrow }}</p>{%- endif -%}
+      {%- if s.heading != blank -%}<h2 class="sm-brand__title h2">{{ s.heading }}</h2>{%- endif -%}
+      {%- if s.text != blank -%}<div class="sm-brand__text rte">{{ s.text }}</div>{%- endif -%}
+      {%- if s.link_label != blank and s.link_url != blank -%}<a class="sm-link" href="{{ s.link_url }}">{{ s.link_label }}</a>{%- endif -%}
+    </div>
+    {%- if s.image != blank -%}
+      <div class="sm-brand__media">
+        {{ s.image | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(min-width: 1024px) 30vw, 100vw', widths: '400, 600, 900', alt: s.image_alt }}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "SM · Présentation",
+  "tag": "section",
+  "class": "sm-section",
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Couleurs", "default": "scheme-1" },
+    { "type": "select", "id": "logo_tone", "label": "Monogramme", "options": [ { "value": "dark", "label": "Vert (fond clair)" }, { "value": "light", "label": "Blanc (fond foncé)" } ], "default": "dark" },
+    { "type": "text", "id": "tagline", "label": "Signature", "default": "Tout commence à la maison" },
+    { "type": "text", "id": "eyebrow", "label": "Surtitre", "default": "La maison" },
+    { "type": "text", "id": "heading", "label": "Titre", "default": "Signature Meubles" },
+    { "type": "richtext", "id": "text", "label": "Texte", "info": "Restez factuel : n’indiquez ni garantie, ni fabrication, ni ancienneté non vérifiées." },
+    { "type": "text", "id": "link_label", "label": "Lien" },
+    { "type": "url", "id": "link_url", "label": "Adresse du lien" },
+    { "type": "image_picker", "id": "image", "label": "Image (facultatif)" },
+    { "type": "text", "id": "image_alt", "label": "Texte alternatif" },
+    { "type": "range", "id": "padding_top", "label": "Marge haute", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 96 },
+    { "type": "range", "id": "padding_bottom", "label": "Marge basse", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 96 }
+  ],
+  "presets": [ { "name": "SM · Présentation" } ]
+}
+{% endschema %}
