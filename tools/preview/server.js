@@ -6,11 +6,15 @@ const http = require('http'); const fs = require('fs'); const path = require('pa
 const { Drop } = require('liquidjs');
 const D = require('./drops'); const { engine, translate, missing, loadLocales, THEME, loadJSON } = require('./engine');
 const { NAV } = require('../collections');
-const PORT = +process.argv[2] || 4200; const ORIGIN = `http://localhost:${PORT}`;
+const PORT = +process.argv[2] || 4200;
+// Per-request context (the preview also runs as a Vercel function): origin from the request host, cart kept in a cookie
+const { AsyncLocalStorage } = require('async_hooks'); const als = new AsyncLocalStorage();
+const ctx = () => als.getStore() || { origin: `http://localhost:${PORT}`, cart: { items: [], note: '', attributes: {} } };
+const origin = () => ctx().origin; const host = () => origin().replace(/^https?:\/\//, '');
 
 // ---- static data -------------------------------------------------------------------------------
 const MONEY = '{{amount_no_decimals_with_space_separator}} DH';
-const shop = { name: 'Signature Meubles', url: ORIGIN, secure_url: ORIGIN, domain: `localhost:${PORT}`, permanent_domain: 'signature-meubles.myshopify.com', money_format: MONEY, money_with_currency_format: MONEY + ' MAD',
+const shop = { name: 'Signature Meubles', get url() { return origin(); }, get secure_url() { return origin(); }, get domain() { return host(); }, permanent_domain: 'signature-meubles.myshopify.com', money_format: MONEY, money_with_currency_format: MONEY + ' MAD',
   currency: 'MAD', locale: 'fr', description: '', email: null, phone: null, address: null, metafields: {}, policies: [], enabled_payment_types: [], 'customer_accounts_enabled': true, customer_accounts_optional: true,
   published_locales: [{ iso_code: 'fr', name: 'Français', primary: true, root_url: '/' }], products_count: D.catalog.products.length, collections_count: D.catalog.collections.length, brand: { logo: null, short_description: '', slogan: 'Tout commence à la maison' },
   privacy_policy: null, refund_policy: null, shipping_policy: null, terms_of_service: null, contact_information: null, types: [...new Set(D.catalog.products.map(p => p.product_type))], vendors: ['Signature Meubles'] };
@@ -50,7 +54,6 @@ function loadSettings() {
 }
 
 // ---- cart --------------------------------------------------------------------------------------
-const cartState = { items: [], note: '', attributes: {} };
 const variantIndex = {}; for (const p of Object.values(D.productByHandle)) for (const v of p.variants) variantIndex[v.id] = { p, v };
 function lineDrop(it, i) { const { p, v } = variantIndex[it.variant_id];
   const img = v.featured_image || p.featured_image;
@@ -59,19 +62,19 @@ function lineDrop(it, i) { const { p, v } = variantIndex[it.variant_id];
     url: v.url, image: img, sku: v.sku, vendor: p.vendor, handle: p.handle, requires_shipping: true, gift_card: false, properties: it.properties || {}, options_with_values: p.has_only_default_variant ? [] : p.options.map((n, j) => ({ name: n, value: v['option' + (j + 1)] })),
     selling_plan_allocation: null, unit_price_measurement: null, item_components: [], product_type: p.type, index: i, url_to_remove: `/cart/change?line=${i + 1}&quantity=0` }; }
 class Cart extends Drop {
-  get items() { return cartState.items.map(lineDrop); } get item_count() { return cartState.items.reduce((a, i) => a + i.quantity, 0); }
+  get items() { return ctx().cart.items.map(lineDrop); } get item_count() { return ctx().cart.items.reduce((a, i) => a + i.quantity, 0); }
   get total_price() { return this.items.reduce((a, i) => a + i.final_line_price, 0); } get items_subtotal_price() { return this.total_price; } get original_total_price() { return this.total_price; }
-  get total_discount() { return 0; } get cart_level_discount_applications() { return []; } get discount_applications() { return []; } get note() { return cartState.note; } get attributes() { return cartState.attributes; }
+  get total_discount() { return 0; } get cart_level_discount_applications() { return []; } get discount_applications() { return []; } get note() { return ctx().cart.note; } get attributes() { return ctx().cart.attributes; }
   get currency() { return { iso_code: 'MAD' }; } get requires_shipping() { return this.item_count > 0; } get empty() { return !this.item_count; } get total_weight() { return 0; } get checkout_charge_amount() { return this.total_price; } get duties_included() { return false; } get taxes_included() { return true; }
   valueOf() { return this.item_count ? this : ''; }
   toJSON() { return { token: 'preview', note: this.note, attributes: this.attributes, original_total_price: this.total_price, total_price: this.total_price, total_discount: 0, total_weight: 0, item_count: this.item_count, items: this.items.map(lineJSON), requires_shipping: this.requires_shipping, currency: 'MAD', items_subtotal_price: this.total_price, cart_level_discount_applications: [] }; }
 }
 const lineJSON = l => ({ id: l.id, key: l.key, variant_id: l.variant_id, product_id: l.product_id, title: l.title, product_title: l.product_title, variant_title: l.variant_title, quantity: l.quantity, price: l.price, original_price: l.price, final_price: l.price, line_price: l.line_price, original_line_price: l.line_price, final_line_price: l.line_price, discounts: [], total_discount: 0, sku: l.sku, vendor: l.vendor, url: l.url, image: l.image?.src || null, featured_image: l.image ? { url: l.image.src, alt: l.image.alt, width: 1254, height: 1254, aspect_ratio: 1 } : null, handle: l.handle, requires_shipping: true, product_type: l.product_type, options_with_values: l.options_with_values, properties: l.properties, variant_options: l.variant.options, gift_card: false });
 function cartAdd(id, qty, properties) { const e = variantIndex[+id]; if (!e) return { status: 404, message: 'Erreur', description: 'Produit introuvable' }; if (!e.v.available) return { status: 422, message: 'Erreur', description: `Le produit « ${e.p.title} » est épuisé.` };
-  const ex = cartState.items.find(i => i.variant_id === +id && JSON.stringify(i.properties || {}) === JSON.stringify(properties || {})); if (ex) ex.quantity += qty; else cartState.items.push({ variant_id: +id, quantity: qty, properties: properties || {} });
-  const idx = cartState.items.findIndex(i => i.variant_id === +id); return lineDrop(cartState.items[idx], idx); }
-function cartSet(ref, qty) { let i = -1; if (typeof ref === 'string' && ref.includes(':')) i = cartState.items.findIndex((it, j) => `${it.variant_id}:${j}` === ref); else if (ref?.line) i = ref.line - 1; else i = cartState.items.findIndex(it => it.variant_id === +ref);
-  if (i < 0 || i >= cartState.items.length) return false; if (qty <= 0) cartState.items.splice(i, 1); else cartState.items[i].quantity = qty; return true; }
+  const ex = ctx().cart.items.find(i => i.variant_id === +id && JSON.stringify(i.properties || {}) === JSON.stringify(properties || {})); if (ex) ex.quantity += qty; else ctx().cart.items.push({ variant_id: +id, quantity: qty, properties: properties || {} });
+  const idx = ctx().cart.items.findIndex(i => i.variant_id === +id); return lineDrop(ctx().cart.items[idx], idx); }
+function cartSet(ref, qty) { let i = -1; if (typeof ref === 'string' && ref.includes(':')) i = ctx().cart.items.findIndex((it, j) => `${it.variant_id}:${j}` === ref); else if (ref?.line) i = ref.line - 1; else i = ctx().cart.items.findIndex(it => it.variant_id === +ref);
+  if (i < 0 || i >= ctx().cart.items.length) return false; if (qty <= 0) ctx().cart.items.splice(i, 1); else ctx().cart.items[i].quantity = qty; return true; }
 
 // ---- rendering ---------------------------------------------------------------------------------
 const parseCache = new Map();
@@ -97,9 +100,9 @@ function collectionsGlobal() { const arr = Object.values(D.collectionByHandle).f
 function globalsFor(req, url, extra) {
   const { settings, ctx } = loadSettings();
   const G = { settings, shop, routes, localization, linklists, pages, cart: new Cart(), collections: collectionsGlobal(), all_products: D.productByHandle, customer: null, images: {}, blogs: {}, articles: {}, metaobjects: {}, scripts: {},
-    request: { host: `localhost:${PORT}`, origin: ORIGIN, path: url.pathname, page_type: extra.page_type, design_mode: false, visual_preview_mode: false, locale: localization.language },
+    request: { host: host(), origin: origin(), path: url.pathname, page_type: extra.page_type, design_mode: false, visual_preview_mode: false, locale: localization.language },
     template: { name: extra.page_type, suffix: extra.suffix || null, directory: null, valueOf() { return extra.page_type + (extra.suffix ? '.' + extra.suffix : ''); }, toString() { return this.valueOf(); } },
-    canonical_url: ORIGIN + url.pathname, page_title: extra.title || shop.name, page_description: extra.description || '', current_page: +url.searchParams.get('page') || 1, current_tags: null, handle: extra.handle || '',
+    canonical_url: origin() + url.pathname, page_title: extra.title || shop.name, page_description: extra.description || '', current_page: +url.searchParams.get('page') || 1, current_tags: null, handle: extra.handle || '',
     content_for_header: `<script>window.Shopify=window.Shopify||{};Shopify.shop='${shop.permanent_domain}';Shopify.locale='fr';Shopify.currency={active:'MAD',rate:'1.0'};Shopify.country='MA';Shopify.designMode=false;Shopify.routes={root:'/'};</script>`,
     powered_by_link: '<a target="_blank" rel="nofollow" href="https://www.shopify.com">Propulsé par Shopify</a>', additional_checkout_buttons: false, content_for_additional_checkout_buttons: '',
     _query: Object.fromEntries([...new Set(url.searchParams.keys())].map(k => [k, url.searchParams.getAll(k).length > 1 ? url.searchParams.getAll(k) : url.searchParams.get(k)])), _sctx: ctx, ...extra.objects };
@@ -164,12 +167,20 @@ function parseBody(buf, type = '') {
 }
 function setDeep(o, k, v) { const m = k.match(/^(\w+)\[(.*?)\](?:\[(.*?)\])?$/); if (!m) { o[k] = v; return; } o[m[1]] = o[m[1]] || (m[2] === '' || /^\d+$/.test(m[2]) ? [] : {}); if (m[3] !== undefined) { const i = +m[2]; o[m[1]][i] = o[m[1]][i] || {}; o[m[1]][i][m[3]] = v; } else if (m[2] === '') o[m[1]].push(v); else o[m[1]][m[2]] = v; }
 const MIME = { '.css': 'text/css', '.js': 'application/javascript', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.woff2': 'font/woff2', '.json': 'application/json' };
-const send = (res, status, body, type = 'text/html; charset=utf-8', headers = {}) => { res.writeHead(status, { 'Content-Type': type, 'Cache-Control': 'no-store', ...headers }); res.end(body); };
+const COOKIE = 'sm_preview_cart';
+function readCart(req) { const m = (req.headers.cookie || '').match(new RegExp(COOKIE + '=([^;]+)')); try { const c = JSON.parse(Buffer.from(m[1], 'base64url').toString('utf8')); return { items: (c.items || []).filter(i => variantIndex[i.variant_id]), note: c.note || '', attributes: c.attributes || {} }; } catch { return { items: [], note: '', attributes: {} }; } }
+const cartCookie = () => `${COOKIE}=${Buffer.from(JSON.stringify(ctx().cart)).toString('base64url')}; Path=/; Max-Age=1209600; SameSite=Lax; HttpOnly`;
+const send = (res, status, body, type = 'text/html; charset=utf-8', headers = {}) => { const c = als.getStore(); res.writeHead(status, { 'Content-Type': type, 'Cache-Control': 'no-store', ...(process.env.VERCEL ? { 'X-Robots-Tag': 'noindex' } : {}), ...(c && c.dirty ? { 'Set-Cookie': cartCookie() } : {}), ...headers }); res.end(body); };
 async function sectionsPayload(req, url, list, refererInfo) { const out = {}; for (const id of [].concat(list || []).flatMap(x => String(x).split(',')).filter(Boolean)) out[id] = await renderSectionById(req, url, id, refererInfo); return out; }
-function refInfo(req) { try { const r = new URL(req.headers.referer || ORIGIN + '/'); return route(r) || { page_type: 'index' }; } catch { return { page_type: 'index' }; } }
+function refInfo(req) { try { const r = new URL(req.headers.referer || origin() + '/'); return route(r) || { page_type: 'index' }; } catch { return { page_type: 'index' }; } }
 
-http.createServer(async (req, res) => {
-  const url = new URL(req.url, ORIGIN); const p = url.pathname;
+async function handler(req, res) {
+  const proto = String(req.headers['x-forwarded-proto'] || 'http').split(',')[0];
+  const hostHeader = req.headers['x-forwarded-host'] || req.headers.host || `localhost:${PORT}`;
+  return als.run({ origin: `${proto}://${hostHeader}`, cart: readCart(req), dirty: false }, () => handle(req, res));
+}
+async function handle(req, res) {
+  const url = new URL(req.url, origin()); const p = url.pathname;
   try {
     if (p.startsWith('/assets/') || p.startsWith('/shop_images/')) { const f = p.startsWith('/assets/') ? path.join(THEME, 'assets', path.basename(p)) : path.join(__dirname, 'shop_images', path.basename(p)); if (!fs.existsSync(f)) return send(res, 404, 'not found', 'text/plain'); return send(res, 200, fs.readFileSync(f), MIME[path.extname(f)] || 'application/octet-stream'); }
     if (p === '/__missing') return send(res, 200, [...missing].sort().join('\n'), 'text/plain; charset=utf-8');
@@ -177,14 +188,14 @@ http.createServer(async (req, res) => {
     // Ajax Cart API
     if (p === '/cart.js' || (p === '/cart' && /json/.test(req.headers.accept || '') && req.method === 'GET')) return json(new Cart().toJSON());
     if (/^\/cart\/(add|change|update|clear)(\.js)?$/.test(p) && req.method === 'POST') {
-      const body = parseBody(await readBody(req), req.headers['content-type']); const op = p.match(/cart\/(\w+)/)[1]; const isJs = p.endsWith('.js') || /json|javascript/.test(req.headers.accept || '') || req.headers['x-requested-with'];
+      ctx().dirty = true; const body = parseBody(await readBody(req), req.headers['content-type']); const op = p.match(/cart\/(\w+)/)[1]; const isJs = p.endsWith('.js') || /json|javascript/.test(req.headers.accept || '') || req.headers['x-requested-with'];
       let out;
       if (op === 'add') { const items = body.items ? [].concat(body.items) : [{ id: body.id, quantity: body.quantity, properties: body.properties }]; const added = [];
         for (const it of items) { const r = cartAdd(it.id, +(it.quantity || 1), it.properties); if (r.status) return json(r, r.status); added.push(lineJSON(r)); } out = body.items ? { items: added } : added[0]; }
       if (op === 'change') { const qty = +body.quantity; const ok = cartSet(body.line ? { line: +body.line } : body.id, qty); if (!ok) return json({ status: 400, message: 'Erreur', description: 'Article introuvable' }, 400); out = new Cart().toJSON(); }
-      if (op === 'update') { if (body.updates) for (const [k, q] of Object.entries(body.updates)) cartSet(Array.isArray(body.updates) ? { line: +k + 1 } : k, +q); if (body.note !== undefined) cartState.note = body.note; if (body.attributes) Object.assign(cartState.attributes, body.attributes); out = new Cart().toJSON(); }
-      if (op === 'clear') { cartState.items = []; out = new Cart().toJSON(); }
-      if (body.sections) out.sections = await sectionsPayload(req, new URL(body.sections_url || '/', ORIGIN), body.sections, refInfo(req));
+      if (op === 'update') { if (body.updates) for (const [k, q] of Object.entries(body.updates)) cartSet(Array.isArray(body.updates) ? { line: +k + 1 } : k, +q); if (body.note !== undefined) ctx().cart.note = body.note; if (body.attributes) Object.assign(ctx().cart.attributes, body.attributes); out = new Cart().toJSON(); }
+      if (op === 'clear') { ctx().cart.items = []; out = new Cart().toJSON(); }
+      if (body.sections) out.sections = await sectionsPayload(req, new URL(body.sections_url || '/', origin()), body.sections, refInfo(req));
       if (!isJs) return send(res, 302, '', 'text/plain', { Location: '/cart' });
       return json(out);
     }
@@ -213,4 +224,6 @@ http.createServer(async (req, res) => {
     if (url.searchParams.get('sections')) return json(await sectionsPayload(req, url, url.searchParams.get('sections'), info));
     const r = await renderPage(req, url, info, status); return send(res, r.status, r.html);
   } catch (e) { console.error(p, e); send(res, 500, `<pre>${String(e.stack).replace(/</g, '&lt;')}</pre>`); }
-}).listen(PORT, () => console.log(`Preview: ${ORIGIN}  (theme: ${THEME})`));
+}
+module.exports = handler;
+if (require.main === module) http.createServer(handler).listen(PORT, () => console.log(`Preview: http://localhost:${PORT}  (theme: ${THEME})`));

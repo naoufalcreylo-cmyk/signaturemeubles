@@ -23,7 +23,7 @@ const results = []; const ok = (name, cond, info = '') => { results.push({ name,
   await d.waitForTimeout(1500);
   const drawerOpen = await d.locator('#CartDrawer, cart-drawer').first().evaluate(e => e.hasAttribute('open') || e.classList.contains('active') || e.getAttribute('aria-hidden') === 'false' || getComputedStyle(e).visibility === 'visible').catch(() => false);
   ok('Add to cart opens the cart drawer', drawerOpen);
-  const cart1 = await (await fetch(BASE + '/cart.js')).json();
+  const cart1 = await (await d.request.get(BASE + '/cart.js')).json();
   ok('Cart contains the selected variant', cart1.items.length === 1 && String(cart1.items[0].variant_id) === vid && cart1.items[0].variant_title === '160 x 200 cm / Avec', cart1.items[0]?.variant_title);
   const drawerText = await d.locator('#CartDrawer, cart-drawer').first().innerText().catch(() => '');
   ok('Drawer shows line item, variant and total', /SOREN/.test(drawerText) && /160 x 200 cm/.test(drawerText) && /7\s?420/.test(drawerText));
@@ -34,7 +34,7 @@ const results = []; const ok = (name, cond, info = '') => { results.push({ name,
   // qty + in drawer
   const plus = d.locator('#CartDrawer button[name="plus"], cart-drawer button[name="plus"], #CartDrawer .quantity__button:last-child').first();
   if (await plus.count()) { await plus.click(); await d.waitForTimeout(1800); }
-  const cart2 = await (await fetch(BASE + '/cart.js')).json();
+  const cart2 = await (await d.request.get(BASE + '/cart.js')).json();
   ok('Quantity increase in drawer', cart2.items[0]?.quantity === 2 && cart2.total_price === 2 * 742000, `qty=${cart2.items[0]?.quantity} total=${cart2.total_price}`);
   await d.keyboard.press('Escape'); await d.waitForTimeout(600);
 
@@ -46,7 +46,7 @@ const results = []; const ok = (name, cond, info = '') => { results.push({ name,
   ok('Checkout button present', await checkoutBtn.count() > 0, await checkoutBtn.innerText().catch(() => ''));
   const remove = d.locator('main a.btn-remove[aria-label^="Supprimer"]:visible').first();
   if (await remove.count()) { await remove.click(); await d.waitForTimeout(1800); }
-  const cart3 = await (await fetch(BASE + '/cart.js')).json();
+  const cart3 = await (await d.request.get(BASE + '/cart.js')).json();
   ok('Remove line item', cart3.item_count === 0, `items=${cart3.item_count}`);
   ok('Empty cart state shown', /vide/i.test(await d.locator('main').innerText()));
 

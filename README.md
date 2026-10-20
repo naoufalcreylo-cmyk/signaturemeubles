@@ -37,3 +37,8 @@ Le serveur exécute **le vrai Liquid du thème** (LiquidJS + objets et filtres S
 | `node tools/gen-setup.js` | Fichiers Matrixify + `navigation.md` |
 | `node tools/check-pages.js` · `tools/flows.js` · `tools/a11y.js` · `tools/perf.js` · `tools/theme-check.js` | Contrôles |
 | `tar.exe -a -c -f signature-meubles-theme.zip -C theme assets config layout locales sections snippets templates` | ZIP importable |
+
+## GitHub et démo Vercel
+- Branche `source` : ce projet complet. Branche `main` : le thème à la racine (intégration GitHub de Shopify, qui ignore les autres fichiers) **+ la démo Vercel** (`api/index.js`, `vercel.json`, `tools/preview/`, `data/catalog.json`).
+- La démo Vercel exécute l'aperçu local en fonction serverless : panier par visiteur (cookie), pages en `noindex`, paiement non émulé. Ce n'est pas la boutique.
+- Mettre à jour `main` : `git worktree add ../main-wt main` puis `bash tools/sync-main.sh ../main-wt` et `git -C ../main-wt push origin main`. Rapatrier d'abord dans `theme/` les éventuelles modifications faites dans l'éditeur Shopify.

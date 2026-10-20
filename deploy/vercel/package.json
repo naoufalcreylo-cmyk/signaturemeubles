@@ -1,0 +1,9 @@
+{
+  "name": "signature-meubles-theme-preview",
+  "private": true,
+  "description": "Signature Meubles Shopify theme (folders at the root, for Shopify's GitHub integration) + a Vercel demo rendering its Liquid",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "liquidjs": "10.30.0"
+  }
+}
