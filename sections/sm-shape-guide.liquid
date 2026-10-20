@@ -1,0 +1,97 @@
+{%- comment -%}
+  Signature Meubles — « L ou U ? » buying guide. Each block = one shape (collection) with a line plan,
+  layout advice written by the merchant, live model count and lowest price. Empty collections are skipped.
+{%- endcomment -%}
+{{ 'section-sm-editorial.css' | asset_url | stylesheet_tag }}
+{%- assign s = section.settings -%}
+<div class="sm-shapes color-{{ s.color_scheme }} section--padding" style="--section-padding-top: {{ s.padding_top }}px; --section-padding-bottom: {{ s.padding_bottom }}px;">
+  <div class="page-width">
+    <header class="sm-head sm-head--split">
+      <div>
+        {%- if s.eyebrow != blank -%}<p class="sm-eyebrow">{{ s.eyebrow }}</p>{%- endif -%}
+        {%- if s.heading != blank -%}<h2 class="sm-head__title h2">{{ s.heading }}</h2>{%- endif -%}
+      </div>
+      {%- if s.text != blank -%}<div class="sm-head__text rte">{{ s.text }}</div>{%- endif -%}
+    </header>
+    <div class="sm-shapes__grid">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign c = block.settings.collection
+          if c == blank or c.products_count == 0
+            continue
+          endif
+          assign min_price = 0
+          for product in c.products limit: 50
+            if min_price == 0 or product.price_min < min_price
+              assign min_price = product.price_min
+            endif
+          endfor
+          assign image = block.settings.image
+          if image == blank
+            assign first = c.products | first
+            assign image = first.media[1] | default: first.featured_media
+          endif
+        -%}
+        <article class="sm-shape" {{ block.shopify_attributes }}>
+          <a class="sm-shape__media" href="{{ c.url }}" tabindex="-1" aria-hidden="true">
+            {%- if image != blank -%}
+              {{ image | image_url: width: 1000 | image_tag: loading: 'lazy', sizes: '(min-width: 768px) 46vw, 100vw', widths: '400, 600, 800, 1000', alt: '' }}
+            {%- endif -%}
+          </a>
+          <div class="sm-shape__body">
+            <div class="sm-shape__top">
+              {%- case block.settings.plan -%}
+                {%- when 'l' -%}
+                  <svg class="sm-shape__plan" viewBox="0 0 64 48" aria-hidden="true" focusable="false"><path d="M4 4h56v14H18v26H4z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                {%- when 'u' -%}
+                  <svg class="sm-shape__plan" viewBox="0 0 64 48" aria-hidden="true" focusable="false"><path d="M4 4h56v40H46V18H18v26H4z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+              {%- endcase -%}
+              <h3 class="sm-shape__title h4"><a href="{{ c.url }}">{{ block.settings.title | default: c.title }}</a></h3>
+            </div>
+            {%- if block.settings.text != blank -%}<div class="sm-shape__text rte">{{ block.settings.text }}</div>{%- endif -%}
+            <dl class="sm-shape__facts">
+              <div><dt>{{ 'sm.collection.models' | t }}</dt><dd>{{ c.products_count }}</dd></div>
+              {%- if min_price > 0 -%}
+                {%- assign min_money = min_price | money -%}
+                <div><dt>{{ 'products.product.price.label' | t }}</dt><dd>{{ 'sm.collection.from_html' | t: price: min_money }}</dd></div>
+              {%- endif -%}
+            </dl>
+            <a class="btn btn--secondary sm-shape__btn" href="{{ c.url }}"><span class="btn__text">{% if block.settings.button_label != blank %}{{ block.settings.button_label }}{% else %}{{ 'sm.collection.view_all' | t }}{% endif %}</span></a>
+          </div>
+        </article>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "SM · Guide des formes",
+  "tag": "section",
+  "class": "sm-section",
+  "max_blocks": 3,
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Couleurs", "default": "scheme-2" },
+    { "type": "text", "id": "eyebrow", "label": "Surtitre", "default": "Bien choisir" },
+    { "type": "text", "id": "heading", "label": "Titre", "default": "Salon en L ou en U ?" },
+    { "type": "richtext", "id": "text", "label": "Introduction" },
+    { "type": "range", "id": "padding_top", "label": "Marge haute", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 96 },
+    { "type": "range", "id": "padding_bottom", "label": "Marge basse", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 96 }
+  ],
+  "blocks": [
+    {
+      "type": "shape",
+      "name": "Forme",
+      "settings": [
+        { "type": "collection", "id": "collection", "label": "Collection" },
+        { "type": "select", "id": "plan", "label": "Plan schématique", "options": [ { "value": "l", "label": "En L" }, { "value": "u", "label": "En U" }, { "value": "none", "label": "Aucun" } ], "default": "l" },
+        { "type": "text", "id": "title", "label": "Titre (facultatif)" },
+        { "type": "richtext", "id": "text", "label": "Conseil d’aménagement" },
+        { "type": "image_picker", "id": "image", "label": "Image (facultatif)" },
+        { "type": "text", "id": "button_label", "label": "Bouton" }
+      ]
+    }
+  ],
+  "presets": [ { "name": "SM · Guide des formes", "blocks": [ { "type": "shape" }, { "type": "shape", "settings": { "plan": "u" } } ] } ]
+}
+{% endschema %}

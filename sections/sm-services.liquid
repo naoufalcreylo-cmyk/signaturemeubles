@@ -1,0 +1,84 @@
+{%- comment -%}
+  Signature Meubles — service points. Publish only confirmed information.
+  Blocks marked « Nécessite WhatsApp » hide while no number is configured; the section hides when no block is visible.
+{%- endcomment -%}
+{{ 'section-sm-editorial.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign s = section.settings
+  assign wa_set = false
+  assign wa_number = settings.sm_whatsapp_number | strip
+  if wa_number != blank
+    assign wa_set = true
+  endif
+  assign visible = 0
+  for block in section.blocks
+    if block.settings.requires_whatsapp and wa_set == false
+      continue
+    endif
+    assign visible = visible | plus: 1
+  endfor
+-%}
+{%- if visible > 0 -%}
+<div class="sm-services color-{{ s.color_scheme }} section--padding" style="--section-padding-top: {{ s.padding_top }}px; --section-padding-bottom: {{ s.padding_bottom }}px;">
+  <div class="page-width">
+    {%- if s.heading != blank -%}<h2 class="sm-services__heading sm-eyebrow">{{ s.heading }}</h2>{%- endif -%}
+    <ul class="sm-services__list" role="list" style="--cols: {{ visible | at_most: 4 }}">
+      {%- for block in section.blocks -%}
+        {%- if block.settings.requires_whatsapp and wa_set == false -%}{%- continue -%}{%- endif -%}
+        <li class="sm-service" {{ block.shopify_attributes }}>
+          {%- render 'sm-icon', icon: block.settings.icon -%}
+          <div>
+            <h3 class="sm-service__title">{{ block.settings.title }}</h3>
+            {%- if block.settings.text != blank -%}<div class="sm-service__text">{{ block.settings.text }}</div>{%- endif -%}
+            {%- if block.settings.link_label != blank -%}
+              {%- liquid
+                assign href = block.settings.link_url
+                if block.settings.requires_whatsapp
+                  capture href
+                    render 'sm-whatsapp-url', message: block.settings.whatsapp_message
+                  endcapture
+                endif
+              -%}
+              <a class="sm-link sm-service__link" href="{{ href | strip }}"{% if block.settings.requires_whatsapp %} target="_blank" rel="noopener" aria-describedby="a11y-new-window-message"{% endif %}>{{ block.settings.link_label }}</a>
+            {%- endif -%}
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "SM · Services",
+  "tag": "section",
+  "class": "sm-section",
+  "max_blocks": 6,
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Couleurs", "default": "scheme-1" },
+    { "type": "text", "id": "heading", "label": "Titre" },
+    { "type": "range", "id": "padding_top", "label": "Marge haute", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 48 },
+    { "type": "range", "id": "padding_bottom", "label": "Marge basse", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 48 }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Service",
+      "settings": [
+        { "type": "paragraph", "content": "N’indiquez que des informations confirmées (délais, zones, prix, conditions)." },
+        { "type": "select", "id": "icon", "label": "Icône", "options": [
+          { "value": "ruler", "label": "Mètre" }, { "value": "tag", "label": "Étiquette" }, { "value": "chat", "label": "Conversation" }, { "value": "whatsapp", "label": "WhatsApp" },
+          { "value": "truck", "label": "Livraison" }, { "value": "tools", "label": "Montage" }, { "value": "card", "label": "Paiement" }, { "value": "store", "label": "Magasin" }, { "value": "mail", "label": "E-mail" } ], "default": "ruler" },
+        { "type": "text", "id": "title", "label": "Titre", "default": "Titre du service" },
+        { "type": "richtext", "id": "text", "label": "Texte" },
+        { "type": "text", "id": "link_label", "label": "Lien" },
+        { "type": "url", "id": "link_url", "label": "Adresse du lien" },
+        { "type": "checkbox", "id": "requires_whatsapp", "label": "Nécessite WhatsApp", "info": "Masqué tant qu’aucun numéro n’est renseigné ; le lien ouvre alors WhatsApp.", "default": false },
+        { "type": "text", "id": "whatsapp_message", "label": "Message WhatsApp prérempli" }
+      ]
+    }
+  ],
+  "presets": [ { "name": "SM · Services", "blocks": [ { "type": "item" }, { "type": "item" }, { "type": "item" } ] } ]
+}
+{% endschema %}

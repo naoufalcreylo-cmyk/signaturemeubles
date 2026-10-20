@@ -1,0 +1,27 @@
+{%- comment -%}
+  Signature Meubles — compact product card for editorial sections (studio view, name, dimensions, price).
+  Usage: {% render 'sm-mini-card', product: product, sizes: '200px' %}
+{%- endcomment -%}
+{%- liquid
+  assign img = product.featured_media
+  if settings.sm_card_studio_first and product.media.size > 1 and product.media[1].media_type == 'image'
+    assign img = product.media[1]
+  endif
+  assign price = product.price_min | money
+-%}
+<a class="sm-mini" href="{{ product.url }}">
+  <span class="sm-mini__media">
+    {%- if img != blank -%}
+      {{ img | image_url: width: 480 | image_tag: loading: 'lazy', sizes: sizes | default: '220px', widths: '160, 240, 320, 480', alt: '' }}
+    {%- endif -%}
+  </span>
+  <span class="sm-mini__info">
+    <span class="sm-mini__title">{{ product.title }}</span>
+    {%- render 'sm-dimensions', product: product, context: 'mini' -%}
+    <span class="sm-mini__price">
+      {%- if product.price_varies -%}{{ 'sm.collection.from_html' | t: price: price }}{%- else -%}{{ price }}{%- endif -%}
+      {%- if product.compare_at_price > product.price -%}<s class="sm-mini__compare">{{ product.compare_at_price | money }}</s>{%- endif -%}
+    </span>
+    {%- unless product.available -%}<span class="sm-mini__soldout">{{ 'products.product.sold_out' | t }}</span>{%- endunless -%}
+  </span>
+</a>

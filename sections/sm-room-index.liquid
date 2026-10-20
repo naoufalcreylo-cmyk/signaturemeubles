@@ -1,0 +1,101 @@
+{%- comment -%}
+  Signature Meubles — numbered room index. Each row: room collection, live model count and lowest price,
+  sub-collections (with counts) and a studio cut-out. Rooms with an empty collection are skipped automatically.
+{%- endcomment -%}
+{{ 'section-sm-room-index.css' | asset_url | stylesheet_tag }}
+{%- assign s = section.settings -%}
+<div class="sm-rooms color-{{ s.color_scheme }} section--padding" style="--section-padding-top: {{ s.padding_top }}px; --section-padding-bottom: {{ s.padding_bottom }}px;">
+  <div class="page-width">
+    <header class="sm-head">
+      <div>
+        {%- if s.eyebrow != blank -%}<p class="sm-eyebrow">{{ s.eyebrow }}</p>{%- endif -%}
+        {%- if s.heading != blank -%}<h2 class="sm-head__title h2">{{ s.heading }}</h2>{%- endif -%}
+      </div>
+      {%- if s.link_label != blank -%}<a class="sm-link" href="{{ s.link_url | default: routes.all_products_collection_url }}">{{ s.link_label }}</a>{%- endif -%}
+    </header>
+
+    <ol class="sm-rooms__list" role="list">
+      {%- assign n = 0 -%}
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign c = block.settings.collection
+          if c == blank or c.products_count == 0
+            continue
+          endif
+          assign n = n | plus: 1
+          assign min_price = 0
+          for product in c.products limit: 50
+            if min_price == 0 or product.price_min < min_price
+              assign min_price = product.price_min
+            endif
+          endfor
+          assign image = block.settings.image
+          if image == blank
+            assign first = c.products | first
+            assign image = first.media[1] | default: first.featured_media
+          endif
+          assign title = block.settings.title | default: c.title
+        -%}
+        <li class="sm-rooms__item" {{ block.shopify_attributes }}>
+          <a class="sm-rooms__cover" href="{{ c.url }}" tabindex="-1" aria-hidden="true">
+            {%- if image != blank -%}
+              {{ image | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(min-width: 1024px) 34vw, 100vw', widths: '360, 540, 720, 900', alt: '', class: 'sm-rooms__img' }}
+            {%- endif -%}
+          </a>
+          <div class="sm-rooms__main">
+            <span class="sm-rooms__num" aria-hidden="true">{{ n | prepend: '0' | slice: -2, 2 }}</span>
+            <h3 class="sm-rooms__title"><a href="{{ c.url }}">{{ title }}</a></h3>
+            <p class="sm-rooms__meta">
+              {{ 'sm.collection.count' | t: count: c.products_count }}
+              {%- if min_price > 0 -%}
+                {%- assign min_money = min_price | money -%}
+                <span aria-hidden="true"> · </span>{{ 'sm.collection.from_html' | t: price: min_money }}
+              {%- endif -%}
+            </p>
+            {%- if block.settings.text != blank -%}<p class="sm-rooms__text">{{ block.settings.text }}</p>{%- endif -%}
+          </div>
+          <ul class="sm-rooms__subs" role="list">
+            {%- for sub in block.settings.subcollections -%}
+              {%- if sub.products_count > 0 -%}
+                <li><a class="sm-rooms__sub" href="{{ sub.url }}"><span>{{ sub.title }}</span><span class="sm-rooms__sub-count">{{ sub.products_count }}</span></a></li>
+              {%- endif -%}
+            {%- endfor -%}
+            <li><a class="sm-rooms__sub sm-rooms__sub--all" href="{{ c.url }}"><span>{{ 'sm.collection.view_all' | t }}</span>{%- render 'icon-arrow-right' -%}</a></li>
+          </ul>
+        </li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "SM · Index des pièces",
+  "tag": "section",
+  "class": "sm-section",
+  "max_blocks": 8,
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Couleurs", "default": "scheme-1" },
+    { "type": "text", "id": "eyebrow", "label": "Surtitre", "default": "Par pièce" },
+    { "type": "text", "id": "heading", "label": "Titre", "default": "Composez chaque pièce de la maison" },
+    { "type": "text", "id": "link_label", "label": "Lien", "default": "Toute la collection" },
+    { "type": "url", "id": "link_url", "label": "Adresse du lien" },
+    { "type": "range", "id": "padding_top", "label": "Marge haute", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 96 },
+    { "type": "range", "id": "padding_bottom", "label": "Marge basse", "min": 0, "max": 160, "step": 8, "unit": "px", "default": 96 }
+  ],
+  "blocks": [
+    {
+      "type": "room",
+      "name": "Pièce",
+      "settings": [
+        { "type": "collection", "id": "collection", "label": "Collection de la pièce" },
+        { "type": "text", "id": "title", "label": "Titre (facultatif)" },
+        { "type": "text", "id": "text", "label": "Phrase courte (facultatif)" },
+        { "type": "collection_list", "id": "subcollections", "label": "Sous-catégories", "limit": 8, "info": "Les collections vides sont masquées automatiquement." },
+        { "type": "image_picker", "id": "image", "label": "Image (facultatif)", "info": "Vide = vue studio du premier produit de la collection." }
+      ]
+    }
+  ],
+  "presets": [ { "name": "SM · Index des pièces", "blocks": [ { "type": "room" }, { "type": "room" }, { "type": "room" } ] } ]
+}
+{% endschema %}

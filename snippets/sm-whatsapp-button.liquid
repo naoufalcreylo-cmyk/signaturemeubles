@@ -1,0 +1,47 @@
+{%- comment -%}
+  Signature Meubles — product WhatsApp button. href is pre-built for the current variant (works without JS);
+  a click rebuilds the message for the variant selected at that moment.
+{%- endcomment -%}
+{%- liquid
+  assign number = settings.sm_whatsapp_number | remove: '+' | remove: ' ' | remove: '-' | remove: '.' | remove: '(' | remove: ')' | strip
+  assign link = request.origin | append: product.url
+-%}
+<a
+  class="btn btn--secondary w-full sm-btn-icon sm-whatsapp-btn"
+  href="{{ href }}"
+  target="_blank"
+  rel="noopener"
+  aria-describedby="a11y-new-window-message"
+  data-sm-whatsapp
+  data-number="{{ number }}"
+  data-template="{{ settings.sm_whatsapp_message | escape }}"
+  data-title="{{ product.title | escape }}"
+  data-url="{{ link }}"
+>
+  {%- render 'sm-icon', icon: 'whatsapp' -%}
+  <span class="btn__text">{% if label != blank %}{{ label }}{% else %}{{ 'sm.whatsapp.cta' | t }}{% endif %}</span>
+</a>
+{%- unless product.has_only_default_variant -%}
+  <script type="application/json" data-sm-whatsapp-variants>
+    {
+      {%- for v in product.variants -%}
+        {{ v.id | json }}: {{ v.title | json }}{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    }
+  </script>
+{%- endunless -%}
+<script>
+  (() => {
+    const a = document.currentScript.parentElement.querySelector('[data-sm-whatsapp]');
+    if (!a || a.dataset.bound) return; a.dataset.bound = '1';
+    a.addEventListener('click', () => {
+      const scope = a.closest('.product__info-container') || document;
+      const id = scope.querySelector('form[data-type="add-to-cart-form"] input[name="id"], input[name="id"]')?.value;
+      const map = JSON.parse(a.parentElement.querySelector('[data-sm-whatsapp-variants]')?.textContent || '{}');
+      const title = a.dataset.title + (map[id] ? ` (${map[id]})` : '');
+      const url = a.dataset.url + (id && map[id] ? `?variant=${id}` : '');
+      const msg = (a.dataset.template || '{produit} — {lien}').replace('{produit}', title).replace('{lien}', url);
+      a.href = `https://wa.me/${a.dataset.number}?text=${encodeURIComponent(msg)}`;
+    });
+  })();
+</script>

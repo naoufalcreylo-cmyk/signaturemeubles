@@ -1,0 +1,40 @@
+/* Signature Meubles — numbered room index (sections/sm-room-index.liquid) */
+.sm-rooms { background: rgb(var(--color-background)); color: rgb(var(--color-foreground)); }
+.sm-rooms__list { list-style: none; margin: 0; padding: 0; border-top: var(--sm-hairline); }
+.sm-rooms__item {
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.6rem; align-items: start;
+  padding-block: 2.4rem 2.8rem; border-bottom: var(--sm-hairline);
+}
+.sm-rooms__cover { grid-column: 1 / -1; display: block; aspect-ratio: 4 / 3; overflow: hidden; background: rgb(var(--sm-lin)); }
+.sm-rooms__img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 1s var(--sm-ease); }
+.sm-rooms__num { font-family: var(--font-heading-family); font-size: 1.4rem; letter-spacing: .1em; color: rgb(var(--sm-bronze-ink)); display: block; margin-bottom: 1rem; font-variant-numeric: tabular-nums; }
+.sm-rooms__title { margin: 0; font-size: clamp(2.8rem, 7vw, 3.4rem); font-weight: var(--font-heading-weight); letter-spacing: -.01em; line-height: 1.1; }
+.sm-rooms__title a { color: inherit; text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size .5s var(--sm-ease); }
+.sm-rooms__item:hover .sm-rooms__title a, .sm-rooms__title a:focus-visible { background-size: 100% 1px; }
+.sm-rooms__meta { margin: .8rem 0 0; font-size: 1.35rem; color: rgb(var(--color-subtext)); font-variant-numeric: tabular-nums; }
+.sm-rooms__text { margin: .8rem 0 0; color: rgb(var(--color-subtext)); max-width: 36ch; }
+.sm-rooms__subs { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .8rem; }
+.sm-rooms__sub {
+  display: inline-flex; align-items: center; gap: 1rem; min-height: 4.4rem; padding: 0 1.4rem; border: var(--sm-hairline);
+  color: inherit; text-decoration: none; font-size: 1.35rem; transition: background-color .2s ease, border-color .2s ease;
+}
+.sm-rooms__sub:hover { border-color: rgb(var(--color-foreground)); }
+.sm-rooms__sub-count { font-size: 1.15rem; color: rgb(var(--color-subtext)); font-variant-numeric: tabular-nums; }
+.sm-rooms__sub--all { border-color: transparent; padding-inline: .4rem; font-weight: 500; font-size: 1.2rem; letter-spacing: .12em; text-transform: uppercase; }
+.sm-rooms__sub--all svg { width: 1.4rem; height: 1.4rem; }
+
+@media (min-width: 1024px) {
+  .sm-rooms__item {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 3fr) minmax(0, 4.2fr); gap: 4rem; align-items: center; padding-block: 2.4rem;
+  }
+  .sm-rooms__cover { grid-column: 3; grid-row: 1; aspect-ratio: 16 / 10; }
+  .sm-rooms__main { grid-column: 1; grid-row: 1; }
+  .sm-rooms__subs { grid-column: 2; grid-row: 1; flex-direction: column; gap: 0; border-top: var(--sm-hairline); }
+  .sm-rooms__subs li { border-bottom: var(--sm-hairline); }
+  .sm-rooms__sub { width: 100%; justify-content: space-between; border: 0; padding: 0; min-height: 4.6rem; }
+  .sm-rooms__sub:hover { padding-left: .6rem; }
+  .sm-rooms__sub--all { justify-content: flex-start; }
+  .sm-rooms__title { font-size: clamp(3.2rem, 3vw, 4.4rem); }
+  .sm-rooms__item:hover .sm-rooms__img { transform: scale(1.035); }
+  .sm-rooms__sub { transition: padding .25s var(--sm-ease); }
+}

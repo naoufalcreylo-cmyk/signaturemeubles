@@ -1,0 +1,18 @@
+{%- comment -%}
+  Signature Meubles — 1.5px line icons drawn on a 24 grid (consistent with the logo's hairline frame).
+  Usage: {% render 'sm-icon', icon: 'ruler' %} · icons: ruler, tag, chat, truck, tools, card, store, whatsapp, mail, instagram
+{%- endcomment -%}
+<svg class="sm-icon sm-icon--{{ icon }}" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" aria-hidden="true" focusable="false">
+  {%- case icon -%}
+    {%- when 'ruler' -%}<path d="M3 15.5 15.5 3 21 8.5 8.5 21zM7 12l2 2M10 9l2 2M13 6l2 2"/>
+    {%- when 'tag' -%}<path d="M3 3h8l10 10-8 8L3 11zM7.5 7.5h.01"/>
+    {%- when 'chat' -%}<path d="M4 4h16v12H9l-5 4z"/>
+    {%- when 'truck' -%}<path d="M2 6h12v10H2zM14 9h4l4 4v3h-8M6 19a2 2 0 1 0 0-.01M18 19a2 2 0 1 0 0-.01"/>
+    {%- when 'tools' -%}<path d="M14 6a4 4 0 0 0 5 5l-9 9-3-3 9-9a4 4 0 0 1-2-2zM4 4l4 4"/>
+    {%- when 'card' -%}<path d="M2 5h20v14H2zM2 10h20M6 15h4"/>
+    {%- when 'store' -%}<path d="M3 9 5 4h14l2 5M4 9v11h16V9M3 9h18M9 20v-6h6v6"/>
+    {%- when 'mail' -%}<path d="M3 5h18v14H3zM3 5l9 8 9-8"/>
+    {%- when 'instagram' -%}<path d="M4 4h16v16H4zM12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM17 7h.01"/>
+    {%- when 'whatsapp' -%}<path d="M4 20l1.3-4A8 8 0 1 1 8 18.7zM9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .9a5 5 0 0 1-2.3-2.3l.9-1-1-2z" stroke-linejoin="round"/>
+  {%- endcase -%}
+</svg>

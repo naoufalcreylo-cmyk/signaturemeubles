@@ -1,0 +1,94 @@
+{%- comment -%}
+  Signature Meubles — hero. Brand band with one framed interior photo (the offset frame echoes the logo monogram)
+  and an optional caption that links the product shown in the photo.
+{%- endcomment -%}
+{{ 'section-sm-hero.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign s = section.settings
+  assign p = s.featured_product
+  assign image = s.image
+  if image == blank and p != blank
+    assign image = p.featured_media
+  endif
+  assign heading_tag = s.heading_tag | default: 'h2'
+-%}
+<div class="sm-hero color-{{ s.color_scheme }} sm-hero--image-{{ s.image_position }}">
+  <div class="sm-hero__inner page-width">
+    <div class="sm-hero__media">
+      {%- if s.show_frame -%}<span class="sm-hero__frame" aria-hidden="true"></span>{%- endif -%}
+      <div class="sm-hero__picture">
+        {%- if image != blank -%}
+          {%- liquid
+            assign alt = s.image_alt | default: image.alt | escape
+            assign mobile = s.image_mobile | default: image
+          -%}
+          <picture>
+            <source media="(max-width: 767px)" srcset="{{ mobile | image_url: width: 600 }} 600w, {{ mobile | image_url: width: 900 }} 900w, {{ mobile | image_url: width: 1254 }} 1254w" sizes="100vw">
+            {{ image | image_url: width: 1254 | image_tag: loading: 'eager', fetchpriority: 'high', sizes: '(min-width: 1440px) 780px, (min-width: 1024px) 56vw, 100vw', widths: '600, 780, 1000, 1254', alt: alt, class: 'sm-hero__img' }}
+          </picture>
+        {%- else -%}
+          {{ 'lifestyle-1' | placeholder_svg_tag: 'sm-hero__img placeholder-svg' }}
+        {%- endif -%}
+      </div>
+      {%- if p != blank and s.show_caption -%}
+        <a class="sm-hero__caption" href="{{ p.url }}">
+          <span class="sm-hero__caption-label">{% if s.caption_label != blank %}{{ s.caption_label }}{% else %}{{ 'sm.general.discover' | t }}{% endif %}</span>
+          <span class="sm-hero__caption-title">{{ p.title }}<span class="sm-hero__caption-type"> · {{ p.type }}</span></span>
+          <span class="sm-hero__caption-meta">
+            {%- render 'sm-dimensions', product: p, context: 'inline' -%}
+            {%- assign price_min = p.price_min | money -%}
+            <span class="sm-hero__caption-price">{% if p.price_varies %}{{ 'sm.collection.from_html' | t: price: price_min }}{% else %}{{ price_min }}{% endif %}</span>
+          </span>
+          {%- render 'icon-arrow-right', class: 'sm-hero__caption-icon' -%}
+        </a>
+      {%- endif -%}
+    </div>
+
+    <div class="sm-hero__content">
+      {%- if s.eyebrow != blank -%}<p class="sm-eyebrow sm-hero__eyebrow">{{ s.eyebrow }}</p>{%- endif -%}
+      {%- if s.heading != blank -%}<{{ heading_tag }} class="sm-hero__heading">{{ s.heading }}</{{ heading_tag }}>{%- endif -%}
+      {%- if s.text != blank -%}<div class="sm-hero__text rte">{{ s.text }}</div>{%- endif -%}
+      <div class="sm-hero__actions">
+        {%- if s.button_label != blank -%}
+          <a href="{{ s.button_link | default: routes.all_products_collection_url }}" class="btn btn--primary sm-hero__btn">
+            <span class="btn__text">{{ s.button_label }}</span>
+          </a>
+        {%- endif -%}
+        {%- if s.link_label != blank and s.link_url != blank -%}
+          <a href="{{ s.link_url }}" class="sm-link sm-hero__link">{{ s.link_label }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "SM · Hero",
+  "tag": "section",
+  "class": "sm-section sm-section--hero",
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Couleurs", "default": "scheme-4" },
+    { "type": "header", "content": "Image" },
+    { "type": "image_picker", "id": "image", "label": "Photo d’ambiance", "info": "Format carré ou 4:5 conseillé. Vide = image principale du produit présenté." },
+    { "type": "image_picker", "id": "image_mobile", "label": "Photo mobile (facultatif)" },
+    { "type": "text", "id": "image_alt", "label": "Texte alternatif", "info": "Décrit la photo pour les lecteurs d’écran." },
+    { "type": "select", "id": "image_position", "label": "Position de la photo", "options": [ { "value": "right", "label": "Droite" }, { "value": "left", "label": "Gauche" } ], "default": "right" },
+    { "type": "checkbox", "id": "show_frame", "label": "Afficher le cadre décalé (motif du logo)", "default": true },
+    { "type": "header", "content": "Produit présenté" },
+    { "type": "product", "id": "featured_product", "label": "Produit visible sur la photo" },
+    { "type": "checkbox", "id": "show_caption", "label": "Afficher la légende produit", "default": true },
+    { "type": "text", "id": "caption_label", "label": "Libellé de la légende", "default": "En photo" },
+    { "type": "header", "content": "Texte" },
+    { "type": "text", "id": "eyebrow", "label": "Surtitre", "default": "Tout commence à la maison" },
+    { "type": "inline_richtext", "id": "heading", "label": "Titre", "default": "Des pièces qui donnent du caractère à votre intérieur." },
+    { "type": "select", "id": "heading_tag", "label": "Balise du titre", "options": [ { "value": "h1", "label": "H1" }, { "value": "h2", "label": "H2" } ], "default": "h2", "info": "Sur l’accueil, le logo est déjà le H1." },
+    { "type": "richtext", "id": "text", "label": "Texte" },
+    { "type": "text", "id": "button_label", "label": "Bouton", "default": "Découvrir la collection" },
+    { "type": "url", "id": "button_link", "label": "Lien du bouton" },
+    { "type": "text", "id": "link_label", "label": "Lien secondaire" },
+    { "type": "url", "id": "link_url", "label": "Adresse du lien secondaire" }
+  ],
+  "presets": [ { "name": "SM · Hero" } ]
+}
+{% endschema %}

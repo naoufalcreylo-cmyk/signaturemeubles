@@ -1,0 +1,23 @@
+{%- comment -%}
+  Signature Meubles — optional floating WhatsApp button (Paramètres du thème > Signature Meubles).
+  Renders nothing unless enabled AND a number is set. Sits above the mobile sticky bars, never over the add-to-cart.
+{%- endcomment -%}
+{%- if settings.sm_whatsapp_floating -%}
+  {%- capture wa -%}{%- render 'sm-whatsapp-url', message: section.settings.message -%}{%- endcapture -%}
+  {%- assign wa = wa | strip -%}
+  {%- if wa != blank -%}
+    <a class="sm-wa-float" href="{{ wa }}" target="_blank" rel="noopener" aria-label="{{ 'sm.whatsapp.floating' | t }}" aria-describedby="a11y-new-window-message">
+      {%- render 'sm-icon', icon: 'whatsapp' -%}
+    </a>
+  {%- endif -%}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "SM · WhatsApp flottant",
+  "settings": [
+    { "type": "paragraph", "content": "Activez-le dans Paramètres du thème > Signature Meubles." },
+    { "type": "text", "id": "message", "label": "Message prérempli", "default": "Bonjour Signature Meubles, j’ai une question." }
+  ]
+}
+{% endschema %}

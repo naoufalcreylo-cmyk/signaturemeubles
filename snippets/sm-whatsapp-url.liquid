@@ -1,0 +1,26 @@
+{%- comment -%}
+  Signature Meubles — outputs a wa.me URL, or nothing when no number is configured (Thème > Signature Meubles).
+  Usage: {%- capture wa -%}{% render 'sm-whatsapp-url', product: product %}{%- endcapture -%}{%- assign wa = wa | strip -%}
+  With a product, the configured message template is used: {produit} → title (+ selected variant), {lien} → product URL.
+{%- endcomment -%}
+{%- liquid
+  assign number = settings.sm_whatsapp_number | remove: '+' | remove: ' ' | remove: '-' | remove: '.' | remove: '(' | remove: ')' | strip
+  if number != blank
+    assign msg = message | default: ''
+    if product != blank
+      assign label = product.title
+      assign v = product.selected_or_first_available_variant
+      unless product.has_only_default_variant
+        assign label = label | append: ' (' | append: v.title | append: ')'
+      endunless
+      assign link = request.origin | append: product.url
+      assign tpl = settings.sm_whatsapp_message | default: '{produit} — {lien}'
+      assign msg = tpl | replace: '{produit}', label | replace: '{lien}', link
+    endif
+    echo 'https://wa.me/' | append: number
+    if msg != blank
+      assign encoded = msg | url_param_escape
+      echo '?text=' | append: encoded
+    endif
+  endif
+-%}
